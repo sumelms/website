@@ -82,35 +82,35 @@ function Home() {
       <VideoSection />
 
       <AboutSection
-        title="Um pouco mais sobre a Sumé"
+        title={["Um pouco mais ", <strong>sobre a Sumé</strong>]}
         description="Educação e tecnologia, aberta, transparent e acessível à todos."
       >
         ABOUT CHILDREN
       </AboutSection>
 
       <PartnersSection
-        title="Quem nos ajuda a construír o futuro"
+        title={[<strong>Quem nos ajuda</strong>, " a construír o futuro"]}
         description="Assim como nós eles acreditam no valor da educação."
       >
         <Button>+ mais parceiros</Button>
       </PartnersSection>
 
       <ProjectsSection
-        title={"Projectos que constroem o sonho"}
+        title={[<strong>Projetos</strong>, " que constroem o sonho"]}
         description="Nossos projetos são abertos e livres, assim como o conhecimento deve ser."
       >
         <Projects />
       </ProjectsSection>
 
       <ServicesSection
-        title="O que nós construímos?"
+        title={["O que nós ", <strong>construímos?</strong>]}
         description="Você pode contar com nossa equipe para ajudá-lo."
       >
         SERVICES CHILDREN
       </ServicesSection>
 
       <ContactSection
-        title="Fale com a gente"
+        title={<strong>Fale com a gente</strong>}
         description="Você gostaria de falar com a nossa equipe? Nós estamos aqui para responder suas perguntas e auxiliar da melhor forma possível."
       >
         CONTACT CHILDREN

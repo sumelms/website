@@ -7,9 +7,7 @@ export const Container = styled.section`
 
 export const Title = styled.h2`
   text-align: center;
-  font-family: "Poppins", sans-serif;
   font-weight: normal;
-  font-size: 28px;
   line-height: 42px;
   margin-bottom: 0;
 
@@ -18,11 +16,9 @@ export const Title = styled.h2`
   }
 `;
 
-export const Description = styled.p`
+export const Description = styled.h3`
   text-align: center;
-  font-family: "Poppins", sans-serif;
   font-weight: 300;
-  font-size: 14px;
   line-height: 21px;
   margin-top: 4px;
 `;

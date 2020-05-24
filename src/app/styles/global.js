@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arvo', sans-serif;
     font-size: 16px;
     color: ${colors.black};  
   }
@@ -26,6 +26,14 @@ const GlobalStyles = createGlobalStyle`
     display: flex;
     margin: 0 auto;
   }
+
+  h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+  }
+
+  h1 { font-size: 34px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 18px; }
 `;
 
 export default GlobalStyles;
