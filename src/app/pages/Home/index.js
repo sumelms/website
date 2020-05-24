@@ -5,6 +5,7 @@ import ProjectCard from "../../components/ProjectCard";
 
 import { Button } from "../../styles/buttons";
 import {
+  ProjectList,
   WelcomeSection,
   VideoSection,
   AboutSection,
@@ -42,12 +43,12 @@ function Home() {
     },
   ];
 
-  const ProjectList = () => (
-    <div>
+  const Projects = () => (
+    <ProjectList>
       {projects.map((project) => (
         <ProjectCard key={() => project.id} item={project} />
       ))}
-    </div>
+    </ProjectList>
   );
 
   return (
@@ -98,7 +99,7 @@ function Home() {
         title={"Projectos que constroem o sonho"}
         description="Nossos projetos são abertos e livres, assim como o conhecimento deve ser."
       >
-        <ProjectList />
+        <Projects />
       </ProjectsSection>
 
       <ServicesSection
