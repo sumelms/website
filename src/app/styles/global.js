@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     color: ${colors.black};  
   }
