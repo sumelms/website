@@ -1,0 +1,31 @@
+import { createGlobalStyle } from "styled-components";
+import colors from "../styles/colors";
+
+/* 
+  WARNING: Consider to use: https://github.com/nfl/react-helmet
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Rubik:wght@300;400;500;700&display=swap');
+
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
+*/
+
+const GlobalStyles = createGlobalStyle`
+  a {
+    text-decoration: none;
+    color: ${colors.primary};
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: ${colors.black};  
+  }
+
+  .container {
+    width: 1140px;
+    display: flex;
+    margin: 0 auto;
+  }
+`;
+
+export default GlobalStyles;
