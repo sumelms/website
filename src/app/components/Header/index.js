@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import logoSrc from "../../assets/images/logo.svg";
 
@@ -10,14 +10,24 @@ function Header() {
     <Container>
       <Logo src={logoSrc} />
       <Navigation>
-        <Link className="active" to="/">
+        <NavLink exact activeClassName="active" to="/">
           Home
-        </Link>
-        <Link to="/about">Sobre</Link>
-        <Link to="/projects">Projetos</Link>
-        <Link to="/services">Serviços</Link>
-        <Link to="/community">Comunidade</Link>
-        <Link to="/blog">Blog</Link>
+        </NavLink>
+        <NavLink activeClassName="active" to="/about">
+          Sobre
+        </NavLink>
+        <NavLink activeClassName="active" to="/projects">
+          Projetos
+        </NavLink>
+        <NavLink activeClassName="active" to="/services">
+          Serviços
+        </NavLink>
+        <NavLink activeClassName="active" to="/community">
+          Comunidade
+        </NavLink>
+        <NavLink activeClassName="active" to="/blog">
+          Blog
+        </NavLink>
       </Navigation>
     </Container>
   );
