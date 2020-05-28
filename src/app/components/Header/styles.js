@@ -2,12 +2,11 @@ import styled from "styled-components";
 import colors from "../../styles/colors";
 
 export const Container = styled.header`
-  height: 92px;
-  border-bottom: 1px solid ${colors.light};
-
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  height: 92px;
+
+  border-bottom: 1px solid ${colors.light};
 `;
 
 export const Logo = styled.img`

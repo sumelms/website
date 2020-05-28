@@ -1,26 +1,38 @@
 import styled from "styled-components";
 
-import Section from "../../components/Section";
+import videoImgSrc from "../../assets/images/img01.jpg";
 
-export const ProjectList = styled.div`
-  display: flex;
-  justify-content: space-between;
+export const Section = styled.section`
+  padding-top: 40px;
+  padding-bottom: 40px;
+`;
 
-  div {
-    margin: 8px;
-    flex: 1;
+export const Title = styled.h2`
+  text-align: center;
+  font-weight: normal;
+  line-height: 42px;
+  margin-bottom: 0;
+
+  strong {
+    font-weight: 600;
   }
 `;
 
-export const WelcomeSection = styled(Section)`
-  display: flex;
-
-  div {
-    flex: 1 1 auto;
-  }
+export const Subtitle = styled.h3`
+  text-align: center;
+  font-weight: 300;
+  line-height: 21px;
+  margin-top: 4px;
 `;
 
-export const VideoSection = styled(Section)``;
+export const WelcomeSection = styled(Section)``;
+
+export const VideoSection = styled(Section)`
+  background-repeat: none;
+  background-size: cover;
+  background-image: url(${videoImgSrc});
+  height: 600px;
+`;
 
 export const AboutSection = styled(Section)``;
 

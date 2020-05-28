@@ -1,14 +1,14 @@
 import React from "react";
 
-import { Container, Title, Description } from "./styles";
+import { Card, Title, Description } from "./styles";
 
 function ProjectCard({ item }) {
   const { image, title, description } = item;
   return (
-    <Container>
+    <Card>
       <Title>{title}</Title>
       <Description>{description}</Description>
-    </Container>
+    </Card>
   );
 }
 

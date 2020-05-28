@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import colors from "../../styles/colors";
 
-export const Container = styled.div`
+export const Card = styled.div`
   border: 1px solid ${colors.light};
   box-shadow: 1px 1px 1px 1px ${colors.light};
   text-align: center;
