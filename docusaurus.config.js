@@ -8,7 +8,6 @@ module.exports = {
   projectName: "website", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Sumé LMS",
       logo: {
         alt: "Sumé LMS Logo",
         src: "img/logo.svg",
