@@ -7,6 +7,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import Section from "../components/Section";
 import Card from "../components/Card";
+import ReactRotatingText from "react-rotating-text";
 
 const reasons = [
   { title: "Reason 1", content: "Content for reason 1", icon: "" },
@@ -27,8 +28,12 @@ function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <div className={styles.heroBanner}>
-        <h1 className={styles.heroTitle}>Education that envolves to be </h1>
-        <h1 className={styles.heroTitle}>Smart!</h1>
+        <h1 className={styles.heroTitle}>
+          Education that envolves to be <br />
+          <ReactRotatingText
+            items={["adaptative!", "open source!", "for all!"]}
+          />
+        </h1>
 
         <h2 className={styles.heroSubtitle}>
           Education that envolved, like knowledge and people.
@@ -43,9 +48,10 @@ function Home() {
           </a>
         </div>
       </div>
+
       <Section title="Why Sumé LMS?">
-        {reasons.map((reason) => (
-          <Card {...reason} />
+        {reasons.map((reason, index) => (
+          <Card key={index} {...reason} />
         ))}
       </Section>
     </Layout>
