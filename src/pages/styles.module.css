@@ -8,24 +8,25 @@
   overflow: hidden;
 }
 
-.buttons {
+.heroButtons {
   display: flex;
   align-items: flex-start;
   justify-content: baseline;
 }
 
 .heroButton {
-  display: inline-block;
-  width: 169px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;  
+  width: 170px;
   height: 40px;
   border-radius: 5px;
   border: none;
   background-color: var(--ifm-color-primary);
   color: var(--ifm-color-primary-light);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  opacity: 1;
   transition: 0.3s;
-  text-align: center;
+  opacity: 1;
 }
 
 .heroButton:hover {
@@ -37,6 +38,7 @@
 span {
   vertical-align: -webkit-baseline-middle;
 }
+
 .heroButton + a {
   margin-left: 1rem;
 }
@@ -52,4 +54,13 @@ span {
   font-weight: 400;
   margin-bottom: 3rem;
   color: var(--ifm-color-primary-dark-gray);
+}
+
+.cardList {
+  display: flex;
+}
+
+.cardList > div {
+  margin: 20px;
+  width: 33%;
 }

@@ -14,7 +14,8 @@
     "clsx": "^1.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-rotating-text": "^1.4.1"
+    "react-rotating-text": "^1.4.1",
+    "styled-components": "^5.1.1"
   },
   "browserslist": {
     "production": [

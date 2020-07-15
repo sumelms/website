@@ -1,4 +1,5 @@
 .container {
+  display: flex;
   padding: 6rem;
 }
 
