@@ -1,0 +1,9 @@
+.container {
+  padding: 6rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--ifm-color-primary-dark-gray);
+}

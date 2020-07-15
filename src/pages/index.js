@@ -6,6 +6,16 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import Section from "../components/Section";
+import Card from "../components/Card";
+
+const reasons = [
+  { title: "Reason 1", content: "Content for reason 1", icon: "" },
+  { title: "Reason 2", content: "Content for reason 2", icon: "" },
+  { title: "Reason 3", content: "Content for reason 3", icon: "" },
+  { title: "Reason 4", content: "Content for reason 4", icon: "" },
+  { title: "Reason 5", content: "Content for reason 5", icon: "" },
+  { title: "Reason 6", content: "Content for reason 6", icon: "" },
+];
 
 function Home() {
   const context = useDocusaurusContext();
@@ -24,7 +34,7 @@ function Home() {
           Education that envolved, like knowledge and people.
         </h2>
 
-        <div className="buttons">
+        <div className={styles.buttons}>
           <a href="#" className={styles.heroButton}>
             <span>View on GitHub</span>
           </a>
@@ -33,8 +43,10 @@ function Home() {
           </a>
         </div>
       </div>
-      <Section>
-        <div className="reasons"></div>
+      <Section title="Why Sumé LMS?">
+        {reasons.map((reason) => (
+          <Card {...reason} />
+        ))}
       </Section>
     </Layout>
   );
