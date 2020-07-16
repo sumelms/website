@@ -19,6 +19,16 @@ import Card from "../components/Card";
 import ReactRotatingText from "react-rotating-text";
 import Button from "../components/Button";
 
+import {
+  HeroBanner,
+  HeroTitle,
+  HeroSubtitle,
+  HeroButtons,
+  ContentText,
+  ContentImg,
+  ContentCard,
+} from "./styles.js";
+
 const reasons = [
   {
     title: "Open Source",
@@ -65,35 +75,35 @@ function Home() {
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <div className={styles.heroBanner}>
-        <div>
-          <h1 className={styles.heroTitle}>
+      <HeroBanner>
+        <ContentText>
+          <HeroTitle>
             Education that envolves to be <br />
             <ReactRotatingText
               items={["adaptative!", "open source!", "for all!"]}
             />
-          </h1>
+          </HeroTitle>
 
-          <h2 className={styles.heroSubtitle}>
+          <HeroSubtitle>
             Education that envolved, like knowledge and people.
-          </h2>
+          </HeroSubtitle>
 
-          <div className={styles.heroButtons}>
+          <HeroButtons>
             <Button text="View on Github" href="#" />
             <Button text="Download" href="#" />
-          </div>
-        </div>
-        <div>
+          </HeroButtons>
+        </ContentText>
+        <ContentImg>
           <HeroImage width="33%" />
-        </div>
-      </div>
+        </ContentImg>
+      </HeroBanner>
 
       <Section title="Why Sumé LMS?">
-        <div className={styles.cardList}>
+        <ContentCard>
           {reasons.map((reason, index) => (
             <Card key={index} {...reason} />
           ))}
-        </div>
+        </ContentCard>
       </Section>
 
       <Section>
