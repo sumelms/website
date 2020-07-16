@@ -19,4 +19,8 @@ export const Container = styled.a`
     color: var(--ifm-color-primary-light-gray);
     text-decoration: none;
   }
+
+  & + a {
+    margin-left: 1rem;
+  }
 `;
