@@ -21,6 +21,7 @@ import Button from "../components/Button";
 
 import {
   HeroBanner,
+  Content,
   HeroTitle,
   HeroSubtitle,
   HeroButtons,
@@ -76,26 +77,28 @@ function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <HeroBanner>
-        <ContentText>
-          <HeroTitle>
-            Education that envolves to be <br />
-            <ReactRotatingText
-              items={["adaptative!", "open source!", "for all!"]}
-            />
-          </HeroTitle>
+        <Content>
+          <ContentText>
+            <HeroTitle>
+              Education that envolves to be <br />
+              <ReactRotatingText
+                items={["adaptative!", "open source!", "for all!"]}
+              />
+            </HeroTitle>
 
-          <HeroSubtitle>
-            Education that envolved, like knowledge and people.
-          </HeroSubtitle>
+            <HeroSubtitle>
+              Education that envolved, like knowledge and people.
+            </HeroSubtitle>
 
-          <HeroButtons>
-            <Button text="View on Github" href="#" />
-            <Button text="Download" href="#" />
-          </HeroButtons>
-        </ContentText>
-        <ContentImg>
-          <HeroImage width="33%" />
-        </ContentImg>
+            <HeroButtons>
+              <Button text="View on Github" href="#" />
+              <Button text="Download" href="#" />
+            </HeroButtons>
+          </ContentText>
+          <ContentImg>
+            <HeroImage width="100%" />
+          </ContentImg>
+        </Content>
       </HeroBanner>
 
       <Section title="Why Sumé LMS?">
