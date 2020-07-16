@@ -14,6 +14,7 @@
     "clsx": "^1.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-icons": "^3.10.0",
     "react-rotating-text": "^1.4.1",
     "styled-components": "^5.1.1"
   },

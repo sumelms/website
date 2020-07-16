@@ -7,6 +7,15 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import styles from "./styles.module.css";
 
+import {
+  FiBookOpen,
+  FiUser,
+  FiLink,
+  FiZap,
+  FiGlobe,
+  FiCheck,
+} from "react-icons/fi";
+
 import HeroImage from "@site/static/img/HeroImage.svg";
 import Img01 from "@site/static/img/img01.svg";
 import Img02 from "@site/static/img/img02.svg";
@@ -35,35 +44,35 @@ const reasons = [
     title: "Open Source",
     content:
       "It is Open Source and free to use. Sumé LMS is licensed by Apache 2.0. It means that you can download, host and use.",
-    icon: "",
+    icon: <FiBookOpen size={24} />,
   },
   {
     title: "People",
     content:
       "Designed by people to people, to understand his needs and desires for a better experience.",
-    icon: "",
+    icon: <FiUser size={24} />,
   },
   {
     title: "Modern",
     content:
       "Developed and tested with modern frameworks and libraries like React and Laravel.",
-    icon: "",
+    icon: <FiZap size={24} />,
   },
   {
     title: "Distributed",
     content:
       "The application structure allows you to design and use microservices.",
-    icon: "",
+    icon: <FiGlobe size={24} />,
   },
   {
     title: "Community",
     content: "All knowledge developed by people must be owned by people.",
-    icon: "",
+    icon: <FiLink size={24} />,
   },
   {
     title: "Compatible",
     content: "SCORM and xAPI supported. But you should try to use Guaraná.",
-    icon: "",
+    icon: <FiCheck size={24} />,
   },
 ];
 
