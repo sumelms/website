@@ -7,7 +7,6 @@ export const Container = styled.div`
 export const Title = styled.h2`
   font-size: 3rem;
   font-weight: 400;
-  color: var(--ifm-color-primary-dark-gray);
 `;
 
 export const Content = styled.div`
