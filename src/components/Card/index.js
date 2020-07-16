@@ -1,13 +1,13 @@
 import React from "react";
 
-import styles from "./styles.module.css";
+import { Container, Title, Content } from "./styles";
 
 function Card({ title, content, icon }) {
   return (
-    <div className={styles.container}>
-      <h2 className={styles.title}>{title}</h2>
-      <p>{content}</p>
-    </div>
+    <Container>
+      <Title>{title}</Title>
+      <Content>{content}</Content>
+    </Container>
   );
 }
 

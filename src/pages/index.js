@@ -4,10 +4,20 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
+
 import styles from "./styles.module.css";
+
+import HeroImage from "@site/static/img/HeroImage.svg";
+import Img01 from "@site/static/img/img01.svg";
+import Img02 from "@site/static/img/img02.svg";
+import Img03 from "@site/static/img/img03.svg";
+import Img04 from "@site/static/img/img04.svg";
+import Img05 from "@site/static/img/img05.svg";
+
 import Section from "../components/Section";
 import Card from "../components/Card";
 import ReactRotatingText from "react-rotating-text";
+import Button from "../components/Button";
 
 const reasons = [
   {
@@ -56,24 +66,25 @@ function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <div className={styles.heroBanner}>
-        <h1 className={styles.heroTitle}>
-          Education that envolves to be <br />
-          <ReactRotatingText
-            items={["adaptative!", "open source!", "for all!"]}
-          />
-        </h1>
+        <div>
+          <h1 className={styles.heroTitle}>
+            Education that envolves to be <br />
+            <ReactRotatingText
+              items={["adaptative!", "open source!", "for all!"]}
+            />
+          </h1>
 
-        <h2 className={styles.heroSubtitle}>
-          Education that envolved, like knowledge and people.
-        </h2>
+          <h2 className={styles.heroSubtitle}>
+            Education that envolved, like knowledge and people.
+          </h2>
 
-        <div className={styles.heroButtons}>
-          <a href="#" className={styles.heroButton}>
-            View on GitHub
-          </a>
-          <a href="#" className={styles.heroButton}>
-            Download
-          </a>
+          <div className={styles.heroButtons}>
+            <Button text="View on Github" href="#" />
+            <Button text="Download" href="#" />
+          </div>
+        </div>
+        <div>
+          <HeroImage width="33%" />
         </div>
       </div>
 
@@ -97,7 +108,9 @@ function Home() {
               ab omnibus et contra naturam{" "}
             </p>
           </div>
-          <div>IMAGE</div>
+          <div>
+            <Img01 />
+          </div>
         </div>
 
         <div>
@@ -111,7 +124,9 @@ function Home() {
               ab omnibus et contra naturam{" "}
             </p>
           </div>
-          <div>IMAGE</div>
+          <div>
+            <Img02 />
+          </div>
         </div>
 
         <div>
@@ -125,7 +140,65 @@ function Home() {
               ab omnibus et contra naturam{" "}
             </p>
           </div>
-          <div>IMAGE</div>
+          <div>
+            <Img03 />
+          </div>
+        </div>
+      </Section>
+
+      <Section title="Simple to use">
+        <p>
+          Designed by people to people. It is easy to install, configure and
+          use.
+        </p>
+        <div>
+          <Img04 />
+        </div>
+      </Section>
+
+      <Section title="Installs everywhere">
+        <p>Some of our guides to help you to install.</p>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="#" alt="Self Host" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="#" alt="Microsoft Azure" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="#" alt="Red Hat Openshift" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="#" alt="Amazon Cloud" />
+            </a>
+          </li>
+        </ul>
+
+        <Button text="Getting started" href="#" />
+      </Section>
+
+      <Section>
+        <div>
+          <h2>Do the Evolution</h2>
+          <p>
+            Together we can make the future better. Join us and help us to build
+            the future of e-learning applications.
+          </p>
+          <p>
+            You can get engaged as a software developer, designer, UX, video
+            creator, content creator, or educator.
+          </p>
+          <Button text="Join the community" href="#" />
+        </div>
+        <div>
+          <Img05 />
         </div>
       </Section>
     </Layout>

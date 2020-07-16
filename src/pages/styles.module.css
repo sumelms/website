@@ -14,39 +14,13 @@
   justify-content: baseline;
 }
 
-.heroButton {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;  
-  width: 170px;
-  height: 40px;
-  border-radius: 5px;
-  border: none;
-  background-color: var(--ifm-color-primary);
-  color: var(--ifm-color-primary-light);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: 0.3s;
-  opacity: 1;
-}
-
-.heroButton:hover {
-  opacity: 0.8;
-  color: var(--ifm-color-primary-light-gray);
-  text-decoration: none;
-}
-
-span {
-  vertical-align: -webkit-baseline-middle;
-}
-
-.heroButton + a {
+.heroButtons a + a {
   margin-left: 1rem;
 }
 
 .heroTitle {
   font-size: 3.5rem;
   font-weight: 400;
-  /* color: var(--ifm-color-primary-dark-gray); */
 }
 
 .heroSubtitle {
@@ -61,6 +35,5 @@ span {
 }
 
 .cardList > div {
-  margin: 20px;
   width: 33%;
 }

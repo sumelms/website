@@ -1,12 +1,13 @@
 import React from "react";
-import styles from "./styles.module.css";
+
+import { Container, Title, Content } from "./styles";
 
 function Section({ children, title }) {
   return (
-    <div className={styles.container}>
-      {title && <h1 className={styles.title}>{title}</h1>}
-      {children}
-    </div>
+    <Container>
+      {title && <Title>{title}</Title>}
+      <Content>{children}</Content>
+    </Container>
   );
 }
 
