@@ -17,6 +17,7 @@ import {
 } from "react-icons/fi";
 
 import HeroImage from "@site/static/img/HeroImage.svg";
+import Img00 from "@site/static/img/img00.svg";
 import Img01 from "@site/static/img/img01.svg";
 import Img02 from "@site/static/img/img02.svg";
 import Img03 from "@site/static/img/img03.svg";
@@ -25,6 +26,7 @@ import Img05 from "@site/static/img/img05.svg";
 
 import Section from "../components/Section";
 import Card from "../components/Card";
+import RowCard from "../components/RowCard";
 import ReactRotatingText from "react-rotating-text";
 import Button from "../components/Button";
 
@@ -37,6 +39,7 @@ import {
   ContentText,
   ContentImg,
   ContentCard,
+  ContentRowCard,
 } from "./styles.js";
 
 const reasons = [
@@ -73,6 +76,30 @@ const reasons = [
     title: "Compatible",
     content: "SCORM and xAPI supported. But you should try to use Guaraná.",
     icon: <FiCheck size={24} />,
+  },
+];
+
+const features = [
+  {
+    topTitle: "Student Space",
+    title: "Your space to learn",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eos, itaque perferendis eaque iure sequi cumque ea nostrum corrupti maiores fugit culpa praesentium velit quis deserunt distinctio natus atque dolore?",
+    image: <Img00 />,
+  },
+  {
+    topTitle: "Instructor Space",
+    title: "Your space to learn",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eos, itaque perferendis eaque iure sequi cumque ea nostrum corrupti maiores fugit culpa praesentium velit quis deserunt distinctio natus atque dolore?",
+    image: <Img00 />,
+  },
+  {
+    topTitle: "Comunity",
+    title: "Interact with the community",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eos, itaque perferendis eaque iure sequi cumque ea nostrum corrupti maiores fugit culpa praesentium velit quis deserunt distinctio natus atque dolore?",
+    image: <Img00 />,
   },
 ];
 
@@ -119,54 +146,14 @@ function Home() {
       </Section>
 
       <Section>
-        <div>
-          <div>
-            <span>Student Space</span>
-            <h2>Your space to learn</h2>
-            <p>
-              Tollere odium autem in nostra potestate sint, ab omnibus et contra
-              naturam transferre in nobis. Sed interim toto desiderio
-              supprimunt: si vis Tollere odium autem in nostra potestate sint,
-              ab omnibus et contra naturam{" "}
-            </p>
-          </div>
-          <div>
-            <Img01 />
-          </div>
-        </div>
-
-        <div>
-          <div>
-            <span>Instructor Space</span>
-            <h2>Your space to learn</h2>
-            <p>
-              Tollere odium autem in nostra potestate sint, ab omnibus et contra
-              naturam transferre in nobis. Sed interim toto desiderio
-              supprimunt: si vis Tollere odium autem in nostra potestate sint,
-              ab omnibus et contra naturam{" "}
-            </p>
-          </div>
-          <div>
-            <Img02 />
-          </div>
-        </div>
-
-        <div>
-          <div>
-            <span>Community</span>
-            <h2>Interact with the community</h2>
-            <p>
-              Tollere odium autem in nostra potestate sint, ab omnibus et contra
-              naturam transferre in nobis. Sed interim toto desiderio
-              supprimunt: si vis Tollere odium autem in nostra potestate sint,
-              ab omnibus et contra naturam{" "}
-            </p>
-          </div>
-          <div>
-            <Img03 />
-          </div>
-        </div>
+        <ContentRowCard>
+          {features.map((feature, index) => (
+            <RowCard key={index} {...feature} />
+          ))}
+        </ContentRowCard>
       </Section>
+
+      <Section></Section>
 
       <Section title="Simple to use">
         <p>
