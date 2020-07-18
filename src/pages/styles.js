@@ -33,7 +33,6 @@ export const HeroSubtitle = styled.h3`
   font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 3rem;
-  /* color: var(--ifm-color-primary-dark-gray); */
 `;
 
 export const HeroButtons = styled.div`
@@ -50,4 +49,7 @@ export const ContentImg = styled.div`
 export const ContentCard = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 `;
+
+export const ContentRowCard = styled.div``;
