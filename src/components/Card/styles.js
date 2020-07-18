@@ -4,7 +4,7 @@ export const Container = styled.div`
   direction: flex;
   flex-direction: column;
   height: 15rem;
-  width: 22rem;
+  width: 24rem;
   padding: 1rem;
 `;
 
@@ -25,7 +25,7 @@ export const Icon = styled.i`
 `;
 
 export const Title = styled.h3`
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
 `;
