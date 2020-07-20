@@ -1,13 +1,10 @@
 import styled from "styled-components";
 
-// import background from "@site/static/img/background.svg";
-
 export const HeroBanner = styled.div`
   height: 100vh;
   width: 100vw;
   overflow: hidden;
   display: flex;
-
   background: url("/img/background.svg") no-repeat right bottom;
   background-size: 700px;
 `;
@@ -52,4 +49,23 @@ export const ContentCard = styled.div`
   justify-content: center;
 `;
 
-export const ContentRowCard = styled.div``;
+export const ContentLogos = styled.ul`
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 2rem;
+`;
+
+export const InstallLogo = styled.li`
+  + li {
+    margin-left: 2rem;
+  }
+`;
+
+export const Wrapped = styled.div`
+  text-align: center;
+
+  > a {
+    margin-top: 4rem;
+  }
+`;

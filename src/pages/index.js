@@ -1,11 +1,6 @@
 import React from "react";
-import clsx from "clsx";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-
-import styles from "./styles.module.css";
 
 import {
   FiBookOpen,
@@ -39,7 +34,9 @@ import {
   ContentText,
   ContentImg,
   ContentCard,
-  ContentRowCard,
+  ContentLogos,
+  InstallLogo,
+  Wrapped,
 } from "./styles.js";
 
 const reasons = [
@@ -146,56 +143,50 @@ function Home() {
       </Section>
 
       <Section>
-        <ContentRowCard>
-          {features.map((feature, index) => (
-            <RowCard key={index} {...feature} />
-          ))}
-        </ContentRowCard>
+        {features.map(({ description, ...rest }, index) => (
+          <RowCard key={index} {...rest} reverse={index % 2}>
+            {description}
+          </RowCard>
+        ))}
       </Section>
 
-      <Section></Section>
+      <Section
+        title="Install everywhere"
+        subtitle="Some of our guides to help you to install."
+        centralize="center"
+      >
+        <Wrapped>
+          <ContentLogos>
+            <InstallLogo>
+              <a href="#">
+                <img src="img/linux.svg" alt="Self Host" />
+              </a>
+            </InstallLogo>
+            <InstallLogo>
+              <a href="#">
+                <img src="img/azure.svg" alt="Microsoft Azure" />
+              </a>
+            </InstallLogo>
+            <InstallLogo>
+              <a href="#">
+                <img src="img/openShift.svg" alt="Red Hat Openshift" />
+              </a>
+            </InstallLogo>
+            <InstallLogo>
+              <a href="#">
+                <img src="/img/amazon.svg" alt="Amazon Cloud" />
+              </a>
+            </InstallLogo>
+          </ContentLogos>
 
-      <Section title="Simple to use">
-        <p>
-          Designed by people to people. It is easy to install, configure and
-          use.
-        </p>
-        <div>
-          <Img04 />
-        </div>
+          <Button text="Getting started" href="#" />
+        </Wrapped>
       </Section>
 
-      <Section title="Installs everywhere">
-        <p>Some of our guides to help you to install.</p>
-        <ul>
-          <li>
-            <a href="#">
-              <img src="#" alt="Self Host" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="#" alt="Microsoft Azure" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="#" alt="Red Hat Openshift" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="#" alt="Amazon Cloud" />
-            </a>
-          </li>
-        </ul>
-
-        <Button text="Getting started" href="#" />
-      </Section>
-
-      <Section>
-        <div>
-          <h2>Do the Evolution</h2>
+      <Section title="Do the Evolution">
+        <RowCard
+          image={<img src="/img/evolution.svg" alt="Do the Evolution" />}
+        >
           <p>
             Together we can make the future better. Join us and help us to build
             the future of e-learning applications.
@@ -205,10 +196,7 @@ function Home() {
             creator, content creator, or educator.
           </p>
           <Button text="Join the community" href="#" />
-        </div>
-        <div>
-          <Img05 />
-        </div>
+        </RowCard>
       </Section>
     </Layout>
   );
