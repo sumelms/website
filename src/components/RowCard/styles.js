@@ -2,15 +2,25 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: ${(props) => (props.reverse ? "row-reverse" : "row")};
   justify-content: space-between;
 
-  padding: 4rem 0;
+  + div {
+    margin-top: 4rem;
+  }
+
+  a {
+    margin-top: 2rem;
+  }
 `;
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
+
+  + div {
+    margin-right: 2rem;
+  }
 `;
 
 export const TopTitle = styled.span`
@@ -20,13 +30,14 @@ export const TopTitle = styled.span`
 export const Title = styled.h3`
   font-size: 2rem;
   font-weight: 400;
-  margin-bottom: 2rem;
 `;
 
-export const Description = styled.p``;
+export const Description = styled.div`
+  margin-top: 1rem;
+`;
 
 export const ContentImg = styled.div`
-  .svg {
-    width: 600px;
+  svg {
+    max-width: 600px;
   }
 `;

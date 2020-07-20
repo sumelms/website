@@ -9,13 +9,14 @@ import {
   ContentImg,
 } from "./styles";
 
-function RowCard({ topTitle, title, description, image }) {
+function RowCard(props) {
+  const { topTitle, title, children, image } = props;
   return (
-    <Container>
+    <Container {...props}>
       <Content>
-        <TopTitle>{topTitle}</TopTitle>
-        <Title>{title}</Title>
-        <Description>{description}</Description>
+        {topTitle && <TopTitle>{topTitle}</TopTitle>}
+        {title && <Title>{title}</Title>}
+        {children && <Description>{children}</Description>}
       </Content>
       <ContentImg>{image}</ContentImg>
     </Container>
