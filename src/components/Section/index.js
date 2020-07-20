@@ -1,11 +1,13 @@
 import React from "react";
 
-import { Container, Title, Content } from "./styles";
+import { Container, Title, SubTitle, Content } from "./styles";
 
-function Section({ children, title }) {
+function Section(props) {
+  const { children, title, subtitle } = props;
   return (
-    <Container>
+    <Container {...props}>
       {title && <Title>{title}</Title>}
+      {subtitle && <SubTitle>{subtitle}</SubTitle>}
       <Content>{children}</Content>
     </Container>
   );
