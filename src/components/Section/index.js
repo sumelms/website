@@ -1,15 +1,15 @@
 import React from "react";
 
-import { Container, Title, SubTitle, Content } from "./styles";
+import styles from "./styles.module.css";
 
 function Section(props) {
-  const { children, title, subtitle } = props;
+  const { children, title, subtitle, centered } = props;
   return (
-    <Container {...props}>
-      {title && <Title>{title}</Title>}
-      {subtitle && <SubTitle>{subtitle}</SubTitle>}
-      <Content>{children}</Content>
-    </Container>
+    <div className={`${styles.container} ${centered && styles.centered}`}>
+      {title && <h2 className={styles.title}>{title}</h2>}
+      {subtitle && <h4 className={styles.subtitle}>{subtitle}</h4>}
+      {children}
+    </div>
   );
 }
 

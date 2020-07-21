@@ -1,0 +1,21 @@
+.container {
+  padding: 4rem 0;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  align-items: "center";
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-weight: 400;
+}

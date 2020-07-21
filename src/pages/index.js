@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import {
   FiBookOpen,
@@ -80,6 +81,13 @@ const features = [
   },
 ];
 
+const installs = [
+  { url: "#", image: "img/linux.svg", title: "Self hosted" },
+  { url: "#", image: "img/azure.svg", title: "Microsoft Azure" },
+  { url: "#", image: "img/openShift.svg", title: "Red Hat Openshift" },
+  { url: "#", image: "img/amazon.svg", title: "Amazon Cloud" },
+];
+
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -114,26 +122,13 @@ function Home() {
       >
         <div className={styles.sectionInstall}>
           <ul>
-            <li>
-              <a href="#">
-                <img src="img/linux.svg" alt="Self Host" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="img/azure.svg" alt="Microsoft Azure" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="img/openShift.svg" alt="Red Hat Openshift" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/img/amazon.svg" alt="Amazon Cloud" />
-              </a>
-            </li>
+            {installs.map((item, index) => (
+              <li key={index}>
+                <a href={item.url} title={item.title}>
+                  <img src={useBaseUrl(item.image)} alt={item.title} />
+                </a>
+              </li>
+            ))}
           </ul>
 
           <Button text="Getting started" href="#" />

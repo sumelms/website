@@ -1,0 +1,38 @@
+
+.container {
+  display: flex;  
+  justify-content: space-between;  
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.container + .container {
+  margin-top: 4rem;
+}
+
+.columnText {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.topTitle {
+  color: var(--ifm-color-primary);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.columnImage img {
+  max-width: 453px;  
+  padding-left: 4rem;
+}
+
+.reverse .columnImage img {
+  padding-left: 0 !important;
+  padding-right: 4rem;
+}

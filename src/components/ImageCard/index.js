@@ -1,25 +1,20 @@
 import React from "react";
 
-import {
-  Container,
-  Content,
-  TopTitle,
-  Title,
-  Description,
-  ContentImg,
-} from "./styles";
+import styles from "./styles.module.css";
 
 function RowCard(props) {
-  const { topTitle, title, children, image } = props;
+  const { topTitle, title, children, image, reverse } = props;
   return (
-    <Container {...props}>
-      <Content>
-        {topTitle && <TopTitle>{topTitle}</TopTitle>}
-        {title && <Title>{title}</Title>}
-        {children && <Description>{children}</Description>}
-      </Content>
-      <ContentImg>{image}</ContentImg>
-    </Container>
+    <div className={`${styles.container} ${reverse && styles.reverse}`}>
+      <div className={styles.columnText}>
+        <div>
+          {topTitle && <span className={styles.topTitle}>{topTitle}</span>}
+          {title && <div className={styles.title}>{title}</div>}
+          {children && <div>{children}</div>}
+        </div>
+      </div>
+      <div className={styles.columnImage}>{image}</div>
+    </div>
   );
 }
 
