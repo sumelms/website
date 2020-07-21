@@ -11,25 +11,13 @@ import {
   FiCheck,
 } from "react-icons/fi";
 
-import Section from "../components/Section";
-import Card from "../components/Card";
-import RowCard from "../components/RowCard";
-import ReactRotatingText from "react-rotating-text";
+import HomeBanner from "../components/HomeBanner";
 import Button from "../components/Button";
+import Section from "../components/Section";
+import ImageCard from "../components/ImageCard";
+import Card from "../components/Card";
 
-import {
-  HeroBanner,
-  Content,
-  HeroTitle,
-  HeroSubtitle,
-  HeroButtons,
-  ContentText,
-  ContentImg,
-  ContentCard,
-  ContentLogos,
-  InstallLogo,
-  Wrapped,
-} from "./styles.js";
+import styles from "./styles.module.css";
 
 const reasons = [
   {
@@ -99,46 +87,23 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Sumé is a modern, fast and open source learning management system."
     >
-      <HeroBanner>
-        <Content>
-          <ContentText>
-            <HeroTitle>
-              Education to be <br />
-              <ReactRotatingText
-                items={["adaptative!", "open source!", "for all!"]}
-              />
-            </HeroTitle>
-
-            <HeroSubtitle>
-              Education that evolved, like knowledge and people.
-            </HeroSubtitle>
-
-            <HeroButtons>
-              <Button text="View on Github" href="#" />
-              <Button text="Download" href="#" />
-            </HeroButtons>
-          </ContentText>
-          <ContentImg>
-            <img src="/img/HeroImage.svg" alt="HeroImage.svg" />
-          </ContentImg>
-        </Content>
-      </HeroBanner>
+      <HomeBanner />
 
       <Section title="Why Sumé LMS?">
-        <ContentCard>
+        <div className={styles.sectionWhy}>
           {reasons.map((reason, index) => (
             <Card key={index} {...reason} />
           ))}
-        </ContentCard>
+        </div>
       </Section>
 
       <Section>
         {features.map(({ description, ...rest }, index) => (
-          <RowCard key={index} {...rest} reverse={index % 2}>
+          <ImageCard key={index} {...rest} reverse={index % 2}>
             {description}
-          </RowCard>
+          </ImageCard>
         ))}
       </Section>
 
@@ -147,36 +112,36 @@ function Home() {
         subtitle="Some of our guides to help you to install."
         centralize="center"
       >
-        <Wrapped>
-          <ContentLogos>
-            <InstallLogo>
+        <div className={styles.sectionInstall}>
+          <ul>
+            <li>
               <a href="#">
                 <img src="img/linux.svg" alt="Self Host" />
               </a>
-            </InstallLogo>
-            <InstallLogo>
+            </li>
+            <li>
               <a href="#">
                 <img src="img/azure.svg" alt="Microsoft Azure" />
               </a>
-            </InstallLogo>
-            <InstallLogo>
+            </li>
+            <li>
               <a href="#">
                 <img src="img/openShift.svg" alt="Red Hat Openshift" />
               </a>
-            </InstallLogo>
-            <InstallLogo>
+            </li>
+            <li>
               <a href="#">
                 <img src="/img/amazon.svg" alt="Amazon Cloud" />
               </a>
-            </InstallLogo>
-          </ContentLogos>
+            </li>
+          </ul>
 
           <Button text="Getting started" href="#" />
-        </Wrapped>
+        </div>
       </Section>
 
       <Section title="Do the Evolution">
-        <RowCard
+        <ImageCard
           image={<img src="/img/evolution.svg" alt="Do the Evolution" />}
         >
           <p>
@@ -188,7 +153,7 @@ function Home() {
             creator, content creator, or educator.
           </p>
           <Button text="Join the community" href="#" />
-        </RowCard>
+        </ImageCard>
       </Section>
     </Layout>
   );

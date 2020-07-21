@@ -1,9 +1,13 @@
 import React from "react";
 
-import { Container } from "./styles";
+import styles from "./styles.module.css";
 
 function Button({ text, ...rest }) {
-  return <Container {...rest}>{text}</Container>;
+  return (
+    <a className={styles.button} {...rest}>
+      {text}
+    </a>
+  );
 }
 
 export default Button;

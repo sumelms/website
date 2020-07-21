@@ -1,0 +1,22 @@
+.sectionWhy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -1.5rem; 
+}
+
+.sectionInstall {
+  text-align: center;
+}
+
+.sectionInstall ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.sectionInstall ul li + li {
+  margin-left: 2rem;
+}
