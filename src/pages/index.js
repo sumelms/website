@@ -11,8 +11,6 @@ import {
   FiCheck,
 } from "react-icons/fi";
 
-import HeroImage from "@site/static/img/HeroImage.svg";
-
 import Section from "../components/Section";
 import Card from "../components/Card";
 import RowCard from "../components/RowCard";
