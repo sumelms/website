@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroBanner = styled.div`
-  height: 100vh;
+  height: 100vh -2rem;
   width: 100vw;
   overflow: hidden;
   display: flex;
@@ -47,6 +47,7 @@ export const ContentCard = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 -1.5rem;
 `;
 
 export const ContentLogos = styled.ul`
