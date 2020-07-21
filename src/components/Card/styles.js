@@ -4,8 +4,8 @@ export const Container = styled.div`
   direction: flex;
   flex-direction: column;
   height: 15rem;
-  width: 20rem;
-  padding: 0.5rem;
+  width: 24rem;
+  padding: 1.5rem;
 `;
 
 export const ContentIcon = styled.div`
