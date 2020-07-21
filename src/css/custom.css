@@ -38,3 +38,7 @@ button,
 a {
   cursor: pointer;
 }
+
+.main-wrapper {
+  overflow-x: hidden;
+}
