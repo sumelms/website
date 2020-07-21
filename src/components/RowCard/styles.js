@@ -17,10 +17,6 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-
-  + div {
-    margin-right: 2rem;
-  }
 `;
 
 export const TopTitle = styled.span`
@@ -35,7 +31,7 @@ export const Title = styled.h3`
 export const Description = styled.div``;
 
 export const ContentImg = styled.div`
-  svg {
-    max-width: 600px;
+  img {
+    max-width: 453px;
   }
 `;
