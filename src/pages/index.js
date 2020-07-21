@@ -12,12 +12,6 @@ import {
 } from "react-icons/fi";
 
 import HeroImage from "@site/static/img/HeroImage.svg";
-import Img00 from "@site/static/img/img00.svg";
-import Img01 from "@site/static/img/img01.svg";
-import Img02 from "@site/static/img/img02.svg";
-import Img03 from "@site/static/img/img03.svg";
-import Img04 from "@site/static/img/img04.svg";
-import Img05 from "@site/static/img/img05.svg";
 
 import Section from "../components/Section";
 import Card from "../components/Card";
@@ -82,21 +76,21 @@ const features = [
     title: "Your space to learn",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eos, itaque perferendis eaque iure sequi cumque ea nostrum corrupti maiores fugit culpa praesentium velit quis deserunt distinctio natus atque dolore?",
-    image: <Img00 />,
+    image: <img src="img/img01.svg" alt="Img 01" />,
   },
   {
     topTitle: "Instructor Space",
     title: "Your space to learn",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eos, itaque perferendis eaque iure sequi cumque ea nostrum corrupti maiores fugit culpa praesentium velit quis deserunt distinctio natus atque dolore?",
-    image: <Img00 />,
+    image: <img src="img/img02.svg" alt="Img 02" />,
   },
   {
     topTitle: "Comunity",
     title: "Interact with the community",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eos, itaque perferendis eaque iure sequi cumque ea nostrum corrupti maiores fugit culpa praesentium velit quis deserunt distinctio natus atque dolore?",
-    image: <Img00 />,
+    image: <img src="img/img03.svg" alt="Img 03" />,
   },
 ];
 
@@ -113,14 +107,14 @@ function Home() {
         <Content>
           <ContentText>
             <HeroTitle>
-              Education that envolves to be <br />
+              Education to be <br />
               <ReactRotatingText
                 items={["adaptative!", "open source!", "for all!"]}
               />
             </HeroTitle>
 
             <HeroSubtitle>
-              Education that envolved, like knowledge and people.
+              Education that evolved, like knowledge and people.
             </HeroSubtitle>
 
             <HeroButtons>
@@ -129,7 +123,7 @@ function Home() {
             </HeroButtons>
           </ContentText>
           <ContentImg>
-            <HeroImage width="100%" />
+            <img src="/img/HeroImage.svg" alt="HeroImage.svg" />
           </ContentImg>
         </Content>
       </HeroBanner>
