@@ -32,9 +32,7 @@ export const Title = styled.h3`
   font-weight: 400;
 `;
 
-export const Description = styled.div`
-  margin-top: 1rem;
-`;
+export const Description = styled.div``;
 
 export const ContentImg = styled.div`
   svg {

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 4rem;
+  padding: 4rem 0;
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
@@ -12,6 +12,7 @@ export const Container = styled.div`
 export const Title = styled.h2`
   font-size: 3rem;
   font-weight: 400;
+  margin-bottom: 2rem;
 `;
 
 export const SubTitle = styled.h4`
