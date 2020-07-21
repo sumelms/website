@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const HeroBanner = styled.div`
-  height: 100vh -2rem;
+  height: auto;
   width: 100vw;
-  overflow: hidden;
   display: flex;
   background: url("/img/background.svg") no-repeat right bottom;
   background-size: 700px;
@@ -40,7 +39,7 @@ export const HeroButtons = styled.div`
 
 export const ContentImg = styled.div`
   align-self: flex-end;
-  width: 600px;
+  width: 500px;
 `;
 
 export const ContentCard = styled.div`
