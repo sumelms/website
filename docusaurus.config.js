@@ -1,7 +1,7 @@
 module.exports = {
   title: "Sumé LMS",
   tagline: "Evolving Education.",
-  url: "https://www.sumelms.com",
+  url: "https://sumelms.com",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "sumelms", // Usually your GitHub org/user name.
