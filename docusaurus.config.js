@@ -11,6 +11,7 @@ module.exports = {
       logo: {
         alt: "Sumé LMS Logo",
         src: "img/logo.svg",
+        position: "left",
       },
       links: [
         {
@@ -32,17 +33,34 @@ module.exports = {
       ],
     },
     footer: {
-      style: "dark",
+      logo: {
+        alt: "Facebook Open Source Logo",
+        src: "img/logo.svg",
+        href: "https://opensource.facebook.com",
+      },
+      style: "light",
       links: [
         {
-          title: "Docs",
+          title: "About",
           items: [
             {
               label: "Style Guide",
               to: "docs/",
             },
             {
-              label: "Second Doc",
+              label: "What is Sumé LMS?",
+              to: "docs/doc2/",
+            },
+            {
+              label: "The Team",
+              to: "docs/",
+            },
+            {
+              label: "Contact Us",
+              to: "docs/doc2/",
+            },
+            {
+              label: "Become Partnes",
               to: "docs/doc2/",
             },
           ],
@@ -58,22 +76,27 @@ module.exports = {
               label: "Discord",
               href: "https://discord.gg/Yx98nwK",
             },
-          ],
-        },
-        {
-          title: "More",
-          items: [
             {
               label: "Blog",
               href: "https://medium.com/sumelms",
             },
+          ],
+        },
+        {
+          title: "Other Projects",
+          items: [
             {
-              label: "GitHub",
+              label: "Guaraná",
+              href: "https://github.com/sumelms",
+            },
+            {
+              label: "Creators Manual",
               href: "https://github.com/sumelms",
             },
           ],
         },
       ],
+
       copyright: `Copyright © ${new Date().getFullYear()} Sumé LMS. Built with Docusaurus.`,
     },
   },
