@@ -8,7 +8,7 @@ import Button from "../Button";
 
 function Banner() {
   const texts = [
-    "fast and modernd.",
+    "fast and modern.",
     "adaptative.",
     "open source.",
     "for everybody!",
