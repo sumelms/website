@@ -118,7 +118,6 @@ function Home() {
       <Section
         title="Install everywhere"
         subtitle="Some of our guides to help you to install."
-        centralize="center"
       >
         <div className={styles.sectionInstall}>
           <ul>
@@ -136,19 +135,21 @@ function Home() {
       </Section>
 
       <Section title="Do the Evolution">
-        <ImageCard
-          image={<img src="/img/evolution.svg" alt="Do the Evolution" />}
-        >
-          <p>
-            Together we can make the future better. Join us and help us to build
-            the future of e-learning applications.
-          </p>
-          <p>
-            You can get engaged as a software developer, designer, UX, video
-            creator, content creator, or educator.
-          </p>
-          <Button text="Join the community" href="#" />
-        </ImageCard>
+        <div className={styles.sectionJoinUs}>
+          <ImageCard
+            image={<img src="/img/evolution.svg" alt="Do the Evolution" />}
+          >
+            <p>
+              Together we can make the future better. Join us and help us to
+              build the future of e-learning applications.
+            </p>
+            <p>
+              You can get engaged as a software developer, designer, UX, video
+              creator, content creator, or educator.
+            </p>
+            <Button text="Join the community" href="#" />
+          </ImageCard>
+        </div>
       </Section>
     </Layout>
   );
