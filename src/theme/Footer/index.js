@@ -170,6 +170,12 @@ function Footer() {
                 __html: copyright,
               }}
             />
+            <a
+              className={styles.footerLogoLink}
+              href="https://www.freepik.com/free-photos-vectors/business"
+            >
+              Vector created by stories - www.freepik.com
+            </a>
           </div>
         )}
       </div>
