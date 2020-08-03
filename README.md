@@ -44,6 +44,8 @@ Sumé LMS is a modern and open-source learning management system that uses moder
 
 - [NodeJS >= v12.16.3](https://nodejs.org/en/download/releases/)
 
+> This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+
 ### Installation
 
 ```
