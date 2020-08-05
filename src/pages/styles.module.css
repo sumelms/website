@@ -1,7 +1,6 @@
 .sectionWhy {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   margin: 0 -1.5rem;
 }
 
@@ -15,12 +14,22 @@
   list-style: none;
   margin-top: 2rem;
   margin-bottom: 4rem;
+  padding-left: 0;
 }
 
-.sectionInstall ul li + li {
+.sectionInstall li + li {
   margin-left: 2rem;
 }
 
 .sectionJoinUs a {
   margin-top: 3rem;
+}
+
+@media screen and (max-width: 620px) {
+  .sectionWhy {
+    justify-content: center;
+  }
+  .title {
+    margin-left: 2rem;
+  }
 }
