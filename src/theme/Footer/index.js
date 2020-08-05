@@ -69,7 +69,7 @@ function Footer() {
       })}
     >
       <div className="container ">
-        {/* <div className="col margin-left--xl footer__col">
+        <div className="col footer__col">
           {logo.href ? (
             <a
               href={logo.href}
@@ -82,11 +82,11 @@ function Footer() {
           ) : (
             <FooterLogo alt={logo.alt} url={logoUrl} />
           )}
-        </div> */}
+        </div>
 
         {links && links.length > 0 && (
-          <div className="row  footer__links">
-            {/* <div className="col margin-left--xl footer__col">
+          <div className="row footer__links">
+            <div className="col footer__col">
               <ul className={`row ${styles.iconslist}`}>
                 <li>
                   <a
@@ -131,9 +131,9 @@ function Footer() {
                   </a>
                 </li>
               </ul>
-            </div> */}
-            {/* {links.map((linkItem, i) => (
-              <div key={i} className="col margin-left--xl footer__col">
+            </div>
+            {links.map((linkItem, i) => (
+              <div key={i} className="col footer__col ">
                 {linkItem.title != null ? (
                   <h4 className="footer__title">{linkItem.title}</h4>
                 ) : null}
@@ -159,7 +159,7 @@ function Footer() {
                   </ul>
                 ) : null}
               </div>
-            ))} */}
+            ))}
           </div>
         )}
         {copyright && (
