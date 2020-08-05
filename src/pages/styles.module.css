@@ -1,7 +1,6 @@
 .sectionWhy {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   margin: 0 -1.5rem;
 }
 
@@ -23,4 +22,14 @@
 
 .sectionJoinUs a {
   margin-top: 3rem;
+}
+
+@media screen and (max-width: 620px) {
+  .sectionWhy {
+    justify-content: center;
+    padding: 1rem;
+  }
+  .title {
+    margin-left: 2rem;
+  }
 }

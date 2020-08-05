@@ -1,7 +1,6 @@
-
 .container {
-  display: flex;  
-  justify-content: space-between;  
+  display: flex;
+  justify-content: space-between;
 }
 
 .reverse {
@@ -28,11 +27,26 @@
 }
 
 .columnImage img {
-  max-width: 453px;  
+  max-width: 453px;
   padding-left: 4rem;
 }
 
 .reverse .columnImage img {
   padding-left: 0 !important;
   padding-right: 4rem;
+}
+
+@media screen and (max-width: 966px) {
+  .columnImage img {
+    max-width: 310px;
+    padding-left: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
 }

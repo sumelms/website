@@ -97,7 +97,11 @@ function Home() {
       title={`${siteConfig.title}`}
       description="Sumé is a modern, fast and open source learning management system."
     >
-      <HomeBanner />
+      {/* <HomeBanner /> */}
+
+      <Section>
+        <HomeBanner />
+      </Section>
 
       <Section title="Why Sumé LMS?">
         <div className={styles.sectionWhy}>

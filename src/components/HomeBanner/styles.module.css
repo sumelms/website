@@ -1,16 +1,7 @@
-.container {
-  height: auto;
-  width: 100vw;
-  display: flex;
-  background: url("/img/background.svg") no-repeat right bottom;
-  background-size: 700px;
-}
-
 .content {
-  padding: 0 2rem;
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .text {
@@ -19,8 +10,8 @@
 }
 
 .title {
-  font-size: 3.5rem;
-  font-weight: 400;
+  font-size: 3.2rem;
+  font-weight: 500;
 }
 
 .subtitle {
@@ -38,4 +29,22 @@
 .image {
   align-self: flex-end;
   width: 500px;
+}
+
+@media screen and (max-width: 966px) {
+  .content {
+    display: flex;
+    align-self: center;
+    flex-direction: initial;
+  }
+  .image {
+    width: auto;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .subtitle {
+    margin-top: 2rem;
+  }
 }
