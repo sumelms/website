@@ -14,9 +14,10 @@
   list-style: none;
   margin-top: 2rem;
   margin-bottom: 4rem;
+  padding-left: 0;
 }
 
-.sectionInstall ul li + li {
+.sectionInstall li + li {
   margin-left: 2rem;
 }
 
@@ -27,7 +28,6 @@
 @media screen and (max-width: 620px) {
   .sectionWhy {
     justify-content: center;
-    padding: 1rem;
   }
   .title {
     margin-left: 2rem;
