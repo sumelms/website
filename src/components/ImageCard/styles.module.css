@@ -49,4 +49,9 @@
     display: block;
     text-align: center;
   }
+
+  .columnImage img {
+    visibility: hidden;
+    width: 0;
+  }
 }
