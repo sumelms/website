@@ -63,7 +63,7 @@ const features = [
     topTitle: "Student Space",
     title: "Your space to learn",
     description:
-      "Customize it, get access to the courses based on your interest, and plan your learning path. The student space is the perfect space to improve that way that you learn in your way while you follow your progress and get in touch with the instructor and other students.",
+      "Customize it, get access to the courses based on your interest, and plan your learning path. The student space is the perfect place to improve that way that you learn while you follow your progress and get in touch with the instructor and other students.",
     image: <img src="img/img01.svg" alt="Img 01" />,
   },
   {
