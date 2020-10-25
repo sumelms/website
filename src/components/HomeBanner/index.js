@@ -7,12 +7,7 @@ import styles from "./styles.module.css";
 import Button from "../Button";
 
 function Banner() {
-  const texts = [
-    "fast and modern.",
-    "adaptative.",
-    "open source.",
-    "for everybody!",
-  ];
+  const texts = ["smart.", "accessible.", "open-source.", "yours!"];
 
   return (
     <div className={styles.content}>
@@ -22,7 +17,7 @@ function Banner() {
           <ReactRotatingText items={texts} />
         </h1>
         <h3 className={styles.subtitle}>
-          Education that evolved, like knowledge and people.
+          A fast and modern e-learning platform designed for humans.
         </h3>
         <div className={styles.actions}>
           <Button text="View on Github" href="https://github.com/sumelms" />
