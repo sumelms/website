@@ -6,12 +6,11 @@
  */
 
 .footerLogoLink {
-  opacity: 0.5;
   transition: opacity 0.15s ease-in-out;
 }
 
 .footerLogoLink:hover {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .iconslist {
@@ -29,4 +28,8 @@
     margin: 0 1rem 0 1rem;
     align-items: center;
   }
+}
+
+.footerCopyright {
+  opacity: 0.6;
 }
