@@ -70,18 +70,7 @@ function Footer() {
     >
       <div className="container ">
         <div className="col footer__col">
-          {logo.href ? (
-            <a
-              href={logo.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.footerLogoLink}
-            >
-              <FooterLogo alt={logo.alt} url={logoUrl} />
-            </a>
-          ) : (
-            <FooterLogo alt={logo.alt} url={logoUrl} />
-          )}
+          <FooterLogo alt={logo.alt} url={logoUrl} />
         </div>
 
         {links && links.length > 0 && (
@@ -165,7 +154,7 @@ function Footer() {
         {copyright && (
           <div className="text--right margin-top--xl">
             <div
-              className={styles.footerLogoLink}
+              className={styles.footerCopyright}
               dangerouslySetInnerHTML={{
                 __html: copyright,
               }}
