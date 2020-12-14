@@ -6,14 +6,21 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "sumelms", // Usually your GitHub org/user name.
   projectName: "website", // Usually your repo name.
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "pt-br"],
+  },
+  customFields: {
+    description:
+      "An modern, fast, open-source, and distributed Learning Management System (LMS).",
+  },
   themeConfig: {
     navbar: {
       logo: {
         alt: "Sumé LMS Logo",
         src: "img/logo.svg",
-        position: "left",
       },
-      links: [
+      items: [
         {
           to: "docs/",
           activeBasePath: "docs",
@@ -105,8 +112,6 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "doc1",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
