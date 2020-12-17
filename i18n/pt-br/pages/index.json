@@ -1,0 +1,22 @@
+{
+  "homepage.banner.title": {
+    "message": "Educação que evoluíu para ser",
+    "description": "This is the text that apears at the initial banner, before the animation words."
+  },
+  "homepage.banner.title.animated.1": {
+    "message": "inteligente.",
+    "description": "Animated banner word"
+  },
+  "homepage.banner.title.animated.2": {
+    "message": "acessível.",
+    "description": "Animated banner word"
+  },
+  "homepage.banner.title.animated.3": {
+    "message": "open-source.",
+    "description": "Animated banner word"
+  },
+  "homepage.banner.title.animated.4": {
+    "message": "seu!",
+    "description": "Animated banner word"
+  }
+}

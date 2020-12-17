@@ -1,0 +1,150 @@
+{
+  "reasons.item-list.1.title": {
+    "message": "Código aberto",
+    "description": "Reason list item title"
+  },
+  "reasons.item-list.1.content": {
+    "message": "Seu código é aberto e livre para ser usado. O Sumé LMS é licenciado pela Apache 2.0. Isto significa que você pode baixar, hospedar e usar.",
+    "description": "Reason list item content"
+  },
+  "reasons.item-list.2.title": {
+    "message": "Pessoas",
+    "description": "Reason list item title"
+  },
+  "reasons.item-list.2.content": {
+    "message": "Desenvolvido por pessoas para pessoas, para compreender suas necessidades e apromiar sua experiência.",
+    "description": "Reason list item content"
+  },
+  "reasons.item-list.3.title": {
+    "message": "Moderno",
+    "description": "Reason list item title"
+  },
+  "reasons.item-list.3.content": {
+    "message": "Desenvolvido com Go e React, e pronto para ser usado com Kubernetes e rodar em containers.",
+    "description": "Reason list item content"
+  },
+  "reasons.item-list.4.title": {
+    "message": "Distribuído",
+    "description": "Reason list item title"
+  },
+  "reasons.item-list.4.content": {
+    "message": "Sua arquitetura de microserviços garante alta disponibilidade e escalabilidade.",
+    "description": "Reason list item content"
+  },
+  "reasons.item-list.5.title": {
+    "message": "Comunidade",
+    "description": "Reason list item title"
+  },
+  "reasons.item-list.5.content": {
+    "message": "Desenvolvimento baseado em diretrizes e necessidades da comunidade.",
+    "description": "Reason list item content"
+  },
+  "reasons.item-list.6.title": {
+    "message": "Compatibilidade",
+    "description": "Reasons list item title"
+  },
+  "reasons.item-list.6.content": {
+    "message": "Nós suportamos SCORM e xAPI, para facilitar a migração, além do nosso formato próprio, chamado: Guaraná.",
+    "description": "Reasons list item content"
+  },
+  "features.item-list.1.toptitle": {
+    "message": "Espaço do Estudante",
+    "description": "Feature list item toptitle"
+  },
+  "features.item-list.1.title": {
+    "message": "Um espaço de aprendizado único",
+    "description": "Feature list item title"
+  },
+  "features.item-list.1.description": {
+    "message": "O estudante pode customizar a forma com que ele acessa seus cursos, baseado em seus interesses. Enquanto você aprende, a plataforma também aprenderá com você e se adaptará para para ajudar você a melhorar seu desempenho. O Espaço do Estudante é perfeito para melhorar a forma que você aprende enquanto monitora seu progresso e discute com instrutores e outros estudantes.",
+    "description": "Feature list item description"
+  },
+  "features.item-list.2.toptitle": {
+    "message": "Espaço do Instrutor",
+    "description": "Feature list item toptitle"
+  },
+  "features.item-list.2.title": {
+    "message": "Um espaço para ensinar",
+    "description": "Feature list item title"
+  },
+  "features.item-list.2.description": {
+    "message": "O controle do conteúdo em suas mãos. Obtenha estatísticas sobre o desempenho e progresso de seus alunos, turmas e cursos. Por meio de análises de máquina, encontre formas de melhorar a forma de ministrar suas suas e suprir a necessidade de individual de cada aluno.",
+    "description": "Feature list item description"
+  },
+  "features.item-list.3.toptitle": {
+    "message": "Para organizações",
+    "description": "Feature list item toptitle"
+  },
+  "features.item-list.3.title": {
+    "message": "Setor Público ou Privado",
+    "description": "Feature list item title"
+  },
+  "features.item-list.3.description": {
+    "message": "Distribua conhecimento como parte do seu negócio. Encontre novas formas de ensinar, aprender, compartilhar e colaborar. Gerencie vários espaços de aprendizado, e ajuda seus colaboradores ou estudantes em sua jornada pelo conhecimento.",
+    "description": "Feature list item description"
+  },
+  "homepage.section.reasons.title": {
+    "message": "Por que Sumé LMS?",
+    "description": "Homepage Reasons section title"
+  },
+  "homepage.section.install.title": {
+    "message": "Instale em todo lugar",
+    "description": "Homepage Installs section title"
+  },
+  "homepage.section.install.subtitle": {
+    "message": "Alguns guidas para ajudar você a instalar e configurar a plataforma.",
+    "description": "Homepage Installs section subtitle"
+  },
+  "homepage.section.install.button": {
+    "message": "Começar agora",
+    "description": "Homepage Install section button"
+  },
+  "homepage.section.community.title": {
+    "message": "Faça a Evolução",
+    "description": "Homepage Community secion button"
+  },
+  "homepage.section.community.button": {
+    "message": "Participe da comunidade",
+    "description": "Homepage Community section button"
+  },
+  "homepage.section.community.text.1": {
+    "message": "Juntos nós podemos construír um futuro melhor. Junte-se a nós e nos ajude a desenvolver o futura das aplicações de ensino a distância.",
+    "description": "Homepage Community section text"
+  },
+  "homepage.section.community.text.2": {
+    "message": "Nós estamos procurando por grandes mentes que estejam dispostas nos ajudar com desenvolvimento e a trazer a melhor experiência para todos. Faça parte do nosso time de desenvolvedores, designers, criadores de conteúdo, educadores ou estudantes.",
+    "description": "Homepage Community section text"
+  },
+  "homepage.banner.words.1": {
+    "message": "inteligente.",
+    "description": "Animated banner word."
+  },
+  "homepage.banner.words.2": {
+    "message": "acessível.",
+    "description": "Animated banner word."
+  },
+  "homepage.banner.words.3": {
+    "message": "de código aberto.",
+    "description": "Animated banner word."
+  },
+  "homepage.banner.words.4": {
+    "message": "seu!",
+    "description": "Animated banner word."
+  },
+  "homepage.banner.phrase": {
+    "message": "Educação que evoluíu para ser",
+    "description": "Homepage banner phrase"
+  },
+  "homepage.banner.subtitle": {
+    "message": "Uma plataforma rápida e moderna de ensino a distância, desenvolvida pensando nas pessoas.",
+    "description": "Homepage banner subtitle"
+  },
+  "homepage.banner.button-github": {
+    "message": "Visite no Github",
+    "description": "Homepage banner button to visit github"
+  },
+  "homepage.banner.button-download": {
+    "message": "Baixar",
+    "description": "Homepage banner button to download"
+  }
+}

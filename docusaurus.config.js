@@ -7,12 +7,12 @@ module.exports = {
   organizationName: "sumelms", // Usually your GitHub org/user name.
   projectName: "website", // Usually your repo name.
   i18n: {
-    defaultLocale: "en",
+    defaultLocale: "pt-br",
     locales: ["en", "pt-br"],
   },
   customFields: {
     description:
-      "An modern, fast, open-source, and distributed Learning Management System (LMS).",
+      "Sumé is a modern, fast, and open-source learning management system.",
   },
   themeConfig: {
     navbar: {
@@ -56,7 +56,7 @@ module.exports = {
             },
             {
               label: "What is Sumé LMS?",
-              to: "docs/doc2/",
+              to: "docs/",
             },
             {
               label: "The Team",
@@ -64,11 +64,11 @@ module.exports = {
             },
             {
               label: "Contact Us",
-              to: "docs/doc2/",
+              to: "docs/",
             },
             {
-              label: "Become Partnes",
-              to: "docs/doc2/",
+              label: "Become Partner",
+              to: "docs/",
             },
           ],
         },
@@ -94,11 +94,11 @@ module.exports = {
           items: [
             {
               label: "Guaraná",
-              href: "https://github.com/sumelms",
+              href: "https://github.com/sumelms/guarana",
             },
             {
               label: "Creators Manual",
-              href: "https://github.com/sumelms",
+              href: "https://github.com/sumelms/creators-manual",
             },
           ],
         },
@@ -113,16 +113,14 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl:
+        //     "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
