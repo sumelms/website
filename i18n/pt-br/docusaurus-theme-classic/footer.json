@@ -56,7 +56,7 @@
     "description": "The footer copyright"
   },
   "link.item.label.Become Partner": {
-    "message": "Become Partner",
+    "message": "Torne-se parceiro",
     "description": "The label of footer link with label=Become Partner linking to docs/"
   }
 }

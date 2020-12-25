@@ -20,7 +20,7 @@
     "description": "Reason list item title"
   },
   "reasons.item-list.3.content": {
-    "message": "Desenvolvido com Go e React, e pronto para ser usado com Kubernetes e rodar em containers.",
+    "message": "Desenvolvido com Go e React, pronto para ser usado com Kubernetes e rodar em containers.",
     "description": "Reason list item content"
   },
   "reasons.item-list.4.title": {
@@ -28,7 +28,7 @@
     "description": "Reason list item title"
   },
   "reasons.item-list.4.content": {
-    "message": "Sua arquitetura de microserviços garante alta disponibilidade e escalabilidade.",
+    "message": "Sua arquitetura em microserviços garante alta disponibilidade e escalabilidade.",
     "description": "Reason list item content"
   },
   "reasons.item-list.5.title": {
@@ -56,7 +56,7 @@
     "description": "Feature list item title"
   },
   "features.item-list.1.description": {
-    "message": "O estudante pode customizar a forma com que ele acessa seus cursos, baseado em seus interesses. Enquanto você aprende, a plataforma também aprenderá com você e se adaptará para para ajudar você a melhorar seu desempenho. O Espaço do Estudante é perfeito para melhorar a forma que você aprende enquanto monitora seu progresso e discute com instrutores e outros estudantes.",
+    "message": "O estudante pode customizar a forma com que ele acessa seus cursos com base em seus interesses. Enquanto você aprende, a plataforma também aprenderá com você e se adaptará para ajudar você a melhorar seu desempenho. O Espaço do Estudante é perfeito para melhorar a forma com que você aprende, enquanto monitora seu progresso e interage com instrutores e outros estudantes.",
     "description": "Feature list item description"
   },
   "features.item-list.2.toptitle": {
@@ -68,7 +68,7 @@
     "description": "Feature list item title"
   },
   "features.item-list.2.description": {
-    "message": "O controle do conteúdo em suas mãos. Obtenha estatísticas sobre o desempenho e progresso de seus alunos, turmas e cursos. Por meio de análises de máquina, encontre formas de melhorar a forma de ministrar suas suas e suprir a necessidade de individual de cada aluno.",
+    "message": "O controle do conteúdo em suas mãos. Obtenha estatísticas sobre desempenho e progresso de seus alunos, turmas e cursos. Por meio de análises de máquina, encontre formas de melhorar e ministrar suas aulas se adequando a necessidade de cada aluno.",
     "description": "Feature list item description"
   },
   "features.item-list.3.toptitle": {
@@ -92,15 +92,15 @@
     "description": "Homepage Installs section title"
   },
   "homepage.section.install.subtitle": {
-    "message": "Alguns guidas para ajudar você a instalar e configurar a plataforma.",
+    "message": "Alguns guias para ajudar você a instalar e configurar a plataforma.",
     "description": "Homepage Installs section subtitle"
   },
   "homepage.section.install.button": {
-    "message": "Começar agora",
+    "message": "Comece agora",
     "description": "Homepage Install section button"
   },
   "homepage.section.community.title": {
-    "message": "Faça a Evolução",
+    "message": "Faça a evolução",
     "description": "Homepage Community secion button"
   },
   "homepage.section.community.button": {
@@ -108,11 +108,11 @@
     "description": "Homepage Community section button"
   },
   "homepage.section.community.text.1": {
-    "message": "Juntos nós podemos construír um futuro melhor. Junte-se a nós e nos ajude a desenvolver o futura das aplicações de ensino a distância.",
+    "message": "Juntos podemos construír um futuro melhor. Junte-se a nós e nos ajude a desenvolver o futuro da técnologia do ensino a distância.",
     "description": "Homepage Community section text"
   },
   "homepage.section.community.text.2": {
-    "message": "Nós estamos procurando por grandes mentes que estejam dispostas nos ajudar com desenvolvimento e a trazer a melhor experiência para todos. Faça parte do nosso time de desenvolvedores, designers, criadores de conteúdo, educadores ou estudantes.",
+    "message": "Nós estamos procurando por grandes mentes que estejam dispostas a nos ajudar com desenvolvimento e a trazer a melhor experiência para todos. Faça parte do nosso time de desenvolvedores, designers, criadores de conteúdo, educadores ou estudantes",
     "description": "Homepage Community section text"
   },
   "homepage.banner.words.1": {
