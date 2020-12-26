@@ -2,7 +2,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  min-width: 170px;
+  padding: 24px 32px;
   height: 40px;
   border-radius: 5px;
   border: none;
