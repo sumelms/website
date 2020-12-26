@@ -140,7 +140,7 @@ function Footer() {
                           }}
                         />
                       ) : (
-                        <li key={item.href || item.to} className="footer__item">
+                        <li key={key} className="footer__item">
                           <FooterLink {...item} />
                         </li>
                       )
