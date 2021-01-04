@@ -39,12 +39,25 @@
   }
   .image {
     width: auto;
-    visibility: hidden;
+    display: none;
   }
 }
 
 @media screen and (max-width: 620px) {
   .subtitle {
     margin-top: 2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    height: 34vh;
+  }
+
+  .actions a {
+    width: 100%;
+  }
+
+  .title br {
+    display: none;
   }
 }
