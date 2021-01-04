@@ -5,4 +5,6 @@ sidebar_label: Welcome
 slug: /
 ---
 
-This is the welcome page
+## About
+
+## Features
