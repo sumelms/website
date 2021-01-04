@@ -31,6 +31,10 @@
     "message": "Become Partnes",
     "description": "The label of footer link with label=Become Partnes linking to docs/"
   },
+  "link.item.label.Code of Conduct": {
+    "message": "Code of Conduct",
+    "description": "The label of footer link with label=Code of Conduct linking to docs/conduct"
+  },
   "link.item.label.Stack Overflow": {
     "message": "Stack Overflow",
     "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/questions/tagged/sumelms"

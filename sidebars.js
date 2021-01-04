@@ -6,6 +6,15 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Conduct",
+      items: [
+        "conduct/conduct",
+        "conduct/enforcement",
+        "conduct/reporting",
+      ],
+    },
+    {
+      type: "category",
       label: "Getting Started",
       items: [
         "getting-started/install",

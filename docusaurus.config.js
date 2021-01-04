@@ -67,6 +67,10 @@ module.exports = {
               to: "docs/",
             },
             {
+              label: "Code of Conduct",
+              to: "docs/conduct",
+            },
+            {
               label: "Become Partner",
               to: "docs/",
             },
