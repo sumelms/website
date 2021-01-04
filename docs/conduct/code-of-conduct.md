@@ -1,6 +1,6 @@
 ---
 id: conduct
-title: Sumé Code of Conduct
+title: Code of Conduct
 sidebar_label: Code of Conduct
 slug: /conduct
 ---
@@ -13,7 +13,7 @@ This isn’t an exhaustive list of things that you can’t do. Instead, take it 
 
 This code of conduct applies to all spaces managed by the Sumé project. This includes Discord, GitHub, Social Networks (Reddit, Facebook, Twitter, Instagram), the mailing lists, Sumé events, and any other forums created by the project team that the community uses for communication. In addition, violations of this code outside these spaces can affect a person's ability to participate in them.
 
-If you believe that someone is violating the code of conduct, we ask that you report it by email *[conduct@sume.com](mailto:conduct@sume.com).* All reports will be kept confidential. In some cases, we can determine that a public statement will need to be made. If so, the identities of all victims and reporters will remain confidential, unless those individuals instruct us otherwise.
+If you believe that someone is violating the code of conduct, we ask that you report it by email *[conduct@sumelms.com](mailto:conduct@sumelms.com).* All reports will be kept confidential. In some cases, we can determine that a public statement will need to be made. If so, the identities of all victims and reporters will remain confidential, unless those individuals instruct us otherwise.
 
 We have the right and responsibility to remove comments or other contributions that are not in accordance with this Code of Conduct or to temporarily or permanently ban any member for other behavior that they deem inappropriate, threatening, offensive, or harmful.
 
@@ -36,4 +36,4 @@ Based on the text of the [Django Project](https://www.djangoproject.com/conduct/
 
 #### Questions?
 
-If you have questions feel free to [contact us](mailto:conduct@sume.com).
+If you have questions feel free to [contact us](mailto:conduct@sumelms.com).
