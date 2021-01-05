@@ -26,6 +26,6 @@
 
 @media screen and (max-width: 620px) {
   .button + .button {
-    visibility: hidden;
+    display: none;
   }
 }
