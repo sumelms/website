@@ -7,8 +7,8 @@ module.exports = {
   organizationName: "sumelms", // Usually your GitHub org/user name.
   projectName: "website", // Usually your repo name.
   i18n: {
-    defaultLocale: "pt-br",
-    locales: ["en", "pt-br"],
+    defaultLocale: "pt",
+    locales: ["en", "pt"],
   },
   customFields: {
     description:

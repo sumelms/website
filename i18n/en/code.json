@@ -1,0 +1,150 @@
+{
+  "reasons.item-list.1.title": {
+    "message": "Open-Source",
+    "description": "Reason list item title"
+  },
+  "reasons.item-list.1.content": {
+    "message": "It is Open-Source and free to use. Sumé LMS is licensed by Apache 2.0. It means that you can download, host, and use it.",
+    "description": "Reason list item content"
+  },
+  "reasons.item-list.2.title": {
+    "message": "People",
+    "description": "Reason list item title"
+  },
+  "reasons.item-list.2.content": {
+    "message": "Designed by people to people, to understand his needs and desires for a better experience.",
+    "description": "Reason list item content"
+  },
+  "reasons.item-list.3.title": {
+    "message": "Modern",
+    "description": "Reason list item title"
+  },
+  "reasons.item-list.3.content": {
+    "message": "It uses K8s, Container, React and Go. All the cool kids on the block are here.",
+    "description": "Reason list item content"
+  },
+  "reasons.item-list.4.title": {
+    "message": "Distributed",
+    "description": "Reason list item title"
+  },
+  "reasons.item-list.4.content": {
+    "message": "The application structure allows you to design and use micro-services.",
+    "description": "Reason list item content"
+  },
+  "reasons.item-list.5.title": {
+    "message": "Community",
+    "description": "Reason list item title"
+  },
+  "reasons.item-list.5.content": {
+    "message": "All knowledge developed by people must be owned by people.",
+    "description": "Reason list item content"
+  },
+  "reasons.item-list.6.title": {
+    "message": "Compatible",
+    "description": "Reasons list item title"
+  },
+  "reasons.item-list.6.content": {
+    "message": "SCORM and xAPI were supported. But you should try to use Guaraná.",
+    "description": "Reasons list item content"
+  },
+  "features.item-list.1.toptitle": {
+    "message": "Student Space",
+    "description": "Feature list item toptitle"
+  },
+  "features.item-list.1.title": {
+    "message": "Your space to learn",
+    "description": "Feature list item title"
+  },
+  "features.item-list.1.description": {
+    "message": "You can customize it and get access to the courses based on your interest. While you learn, the platform will also learn and adapt to help you to get the best results. The student space is the perfect place to improve the way that you learn while you follow your progress and get in touch with the instructor and other students.",
+    "description": "Feature list item description"
+  },
+  "features.item-list.2.toptitle": {
+    "message": "Instructor Space",
+    "description": "Feature list item toptitle"
+  },
+  "features.item-list.2.title": {
+    "message": "Your space to learn",
+    "description": "Feature list item title"
+  },
+  "features.item-list.2.description": {
+    "message": "The control of the content is in your hands. Get statistics about the student progress, and course statistics. Find out how to improve the way that your content is delivered to the students while you plan your course or next class.",
+    "description": "Feature list item description"
+  },
+  "features.item-list.3.toptitle": {
+    "message": "For Organizations",
+    "description": "Feature list item toptitle"
+  },
+  "features.item-list.3.title": {
+    "message": "Company or school",
+    "description": "Feature list item title"
+  },
+  "features.item-list.3.description": {
+    "message": "Distribute knowledge is part of your business, and your organization can have multiple spaces to learn, collaborate, and share. Manage multiple learning spaces, and help your collaborators or students in their learning journey.",
+    "description": "Feature list item description"
+  },
+  "homepage.banner.words.1": {
+    "message": "smart.",
+    "description": "Animated banner word."
+  },
+  "homepage.banner.words.2": {
+    "message": "accessible.",
+    "description": "Animated banner word."
+  },
+  "homepage.banner.words.3": {
+    "message": "open-source.",
+    "description": "Animated banner word."
+  },
+  "homepage.banner.words.4": {
+    "message": "yours!",
+    "description": "Animated banner word."
+  },
+  "homepage.banner.phrase": {
+    "message": "Education that evolved to be",
+    "description": "Homepage banner phrase"
+  },
+  "homepage.banner.subtitle": {
+    "message": "A fast and modern e-learning platform designed for humans.",
+    "description": "Homepage banner subtitle"
+  },
+  "homepage.banner.button-github": {
+    "message": "View on Github",
+    "description": "Homepage banner button to visit github"
+  },
+  "homepage.banner.button-download": {
+    "message": "Download",
+    "description": "Homepage banner button to download"
+  },
+  "homepage.section.reasons.title": {
+    "message": "Why Sumé LMS?",
+    "description": "Homepage Reasons section title"
+  },
+  "homepage.section.install.title": {
+    "message": "Install everywhere",
+    "description": "Homepage Installs section title"
+  },
+  "homepage.section.install.subtitle": {
+    "message": "Some of our guides to help you to install.",
+    "description": "Homepage Installs section subtitle"
+  },
+  "homepage.section.install.button": {
+    "message": "Getting started",
+    "description": "Homepage Install section button"
+  },
+  "homepage.section.community.title": {
+    "message": "Do the Evolution",
+    "description": "Homepage Community secion button"
+  },
+  "homepage.section.community.text.1": {
+    "message": "Together we can build a better future. Join us and help us to develop the future of the e-learning application.",
+    "description": "Homepage Community section text"
+  },
+  "homepage.section.community.text.2": {
+    "message": "We are looking for great minds that want to help us to develop the best experience for everybody. Join us as a developer, designer, content creator, student, or educator.",
+    "description": "Homepage Community section text"
+  },
+  "homepage.section.community.button": {
+    "message": "Join the community",
+    "description": "Homepage Community section button"
+  }
+}

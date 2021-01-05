@@ -9,6 +9,7 @@
     <img alt="Travis (.org)" src="https://travis-ci.com/sumelms/website.svg?branch=main">
   </a>
   <img alt="GitHub" src="https://img.shields.io/github/license/sumelms/website">
+  <a title="Crowdin" target="_blank" href="https://crowdin.com/project/sum-lms-website"><img src="https://badges.crowdin.net/sum-lms-website/localized.svg"></a>
   <a href="https://discord.gg/Yh9q9cd">
     <img alt="Discord" src="https://img.shields.io/discord/726500188021063682">
   </a>

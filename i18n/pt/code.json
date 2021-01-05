@@ -83,38 +83,6 @@
     "message": "Distribua conhecimento como parte do seu negócio. Encontre novas formas de ensinar, aprender, compartilhar e colaborar. Gerencie vários espaços de aprendizado, e ajuda seus colaboradores ou estudantes em sua jornada pelo conhecimento.",
     "description": "Feature list item description"
   },
-  "homepage.section.reasons.title": {
-    "message": "Por que Sumé LMS?",
-    "description": "Homepage Reasons section title"
-  },
-  "homepage.section.install.title": {
-    "message": "Instale em todo lugar",
-    "description": "Homepage Installs section title"
-  },
-  "homepage.section.install.subtitle": {
-    "message": "Alguns guias para ajudar você a instalar e configurar a plataforma.",
-    "description": "Homepage Installs section subtitle"
-  },
-  "homepage.section.install.button": {
-    "message": "Comece agora",
-    "description": "Homepage Install section button"
-  },
-  "homepage.section.community.title": {
-    "message": "Faça a evolução",
-    "description": "Homepage Community secion button"
-  },
-  "homepage.section.community.button": {
-    "message": "Participe da comunidade",
-    "description": "Homepage Community section button"
-  },
-  "homepage.section.community.text.1": {
-    "message": "Juntos podemos construír um futuro melhor. Junte-se a nós e nos ajude a desenvolver o futuro da técnologia do ensino a distância.",
-    "description": "Homepage Community section text"
-  },
-  "homepage.section.community.text.2": {
-    "message": "Nós estamos procurando por grandes mentes que estejam dispostas a nos ajudar com desenvolvimento e a trazer a melhor experiência para todos. Faça parte do nosso time de desenvolvedores, designers, criadores de conteúdo, educadores ou estudantes",
-    "description": "Homepage Community section text"
-  },
   "homepage.banner.words.1": {
     "message": "inteligente.",
     "description": "Animated banner word."
@@ -146,5 +114,37 @@
   "homepage.banner.button-download": {
     "message": "Baixar",
     "description": "Homepage banner button to download"
+  },
+  "homepage.section.reasons.title": {
+    "message": "Por que Sumé LMS?",
+    "description": "Homepage Reasons section title"
+  },
+  "homepage.section.install.title": {
+    "message": "Instale em todo lugar",
+    "description": "Homepage Installs section title"
+  },
+  "homepage.section.install.subtitle": {
+    "message": "Alguns guias para ajudar você a instalar e configurar a plataforma.",
+    "description": "Homepage Installs section subtitle"
+  },
+  "homepage.section.install.button": {
+    "message": "Comece agora",
+    "description": "Homepage Install section button"
+  },
+  "homepage.section.community.title": {
+    "message": "Faça a evolução",
+    "description": "Homepage Community secion button"
+  },
+  "homepage.section.community.text.1": {
+    "message": "Juntos podemos construír um futuro melhor. Junte-se a nós e nos ajude a desenvolver o futuro da técnologia do ensino a distância.",
+    "description": "Homepage Community section text"
+  },
+  "homepage.section.community.text.2": {
+    "message": "Nós estamos procurando por grandes mentes que estejam dispostas a nos ajudar com desenvolvimento e a trazer a melhor experiência para todos. Faça parte do nosso time de desenvolvedores, designers, criadores de conteúdo, educadores ou estudantes",
+    "description": "Homepage Community section text"
+  },
+  "homepage.section.community.button": {
+    "message": "Participe da comunidade",
+    "description": "Homepage Community section button"
   }
 }
