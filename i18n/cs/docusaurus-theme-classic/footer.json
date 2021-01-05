@@ -1,35 +1,39 @@
 {
   "link.title.About": {
-    "message": "Sobre",
+    "message": "About",
     "description": "The title of the footer links column with title=About in the footer"
   },
   "link.title.Community": {
-    "message": "Comunidade",
+    "message": "Community",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.Other Projects": {
-    "message": "Outros projetos",
+    "message": "Other Projects",
     "description": "The title of the footer links column with title=Other Projects in the footer"
   },
   "link.item.label.Style Guide": {
-    "message": "Guia de estilo",
+    "message": "Style Guide",
     "description": "The label of footer link with label=Style Guide linking to docs/"
   },
   "link.item.label.What is Sumé LMS?": {
-    "message": "O que é Sumé LMS?",
+    "message": "What is Sumé LMS?",
     "description": "The label of footer link with label=What is Sumé LMS? linking to docs/"
   },
   "link.item.label.The Team": {
-    "message": "O Time",
+    "message": "The Team",
     "description": "The label of footer link with label=The Team linking to docs/"
   },
   "link.item.label.Contact Us": {
-    "message": "Contato",
+    "message": "Contact Us",
     "description": "The label of footer link with label=Contact Us linking to docs/"
   },
   "link.item.label.Become Partnes": {
-    "message": "Seja um parceiro",
+    "message": "Become Partnes",
     "description": "The label of footer link with label=Become Partnes linking to docs/"
+  },
+  "link.item.label.Code of Conduct": {
+    "message": "Code of Conduct",
+    "description": "The label of footer link with label=Code of Conduct linking to docs/conduct"
   },
   "link.item.label.Stack Overflow": {
     "message": "Stack Overflow",
@@ -48,19 +52,15 @@
     "description": "The label of footer link with label=Guaraná linking to https://github.com/sumelms/guarana"
   },
   "link.item.label.Creators Manual": {
-    "message": "Manual do Criador",
+    "message": "Creators Manual",
     "description": "The label of footer link with label=Creators Manual linking to https://github.com/sumelms/creators-manual"
   },
   "copyright": {
-    "message": "Copyright © 2020 Sumé LMS. Construído com Docusaurus.",
+    "message": "Copyright © 2020 Sumé LMS. Built with Docusaurus.",
     "description": "The footer copyright"
   },
   "link.item.label.Become Partner": {
-    "message": "Torne-se parceiro",
+    "message": "Become Partner",
     "description": "The label of footer link with label=Become Partner linking to docs/"
-  },
-  "link.item.label.Code of Conduct": {
-    "message": "Código de Conduta",
-    "description": "The label of footer link with label=Code of Conduct linking to docs/conduct"
   }
 }
