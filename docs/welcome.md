@@ -8,8 +8,11 @@ slug: /
 ## About
 
 
-
 ## Features
+
+## Contributing guide
+
+Please check the instructions on [How to Contribute](/docs/development/contribute).
 
 ## Code of Conduct
 
