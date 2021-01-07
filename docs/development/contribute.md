@@ -81,9 +81,9 @@ All code sent to the ***main*** must be compatible with the latest stable versio
 - Make sure that the whole test suite is passing successfully.
 - Update your branch with the most recent changes from the upstream main branch. You can do this locally with:
 
-```sh
-git pull --rebase upstream main
-```
+  ```sh
+  git pull --rebase upstream main
+  ```
 
 - Provide a detailed description of the changes to the PR. Live demo preferred.
 - If necessary, you can organize your commit messages using GIT's interactive rebase. Please follow our commit message conventions shown below:
@@ -99,17 +99,17 @@ git pull --rebase upstream main
     - Cody style changes with `style: standard`
 
 
-  ### Merging a PR (maintainers only)
+ ### Merging a PR (maintainers only)
 
-    A PR can only be merged with **main** by a maintainer if:
+ A PR can only be merged with **main** by a maintainer if:
 
-    - CI is passing.
-    - It was approved by at least two maintainers. If it was a maintainer who opened the PR, only extra approval is required.
-    - No changes requested.
-    - It is updated with the current branch main code.
+ - CI is passing.
+ - It was approved by at least two maintainers. If it was a maintainer who opened the PR, only extra approval is required.
+ - No changes requested.
+ - It is updated with the current branch main code.
 
-  ## Get in Touch
+## Get in Touch
 
-    - Sumé Community on [Discord](https://discord.com/invite/aaJzjBunTZ), in case you need help or want to make suggestions.
-    - Look for / ask questions at [Stack Overflow] ([https://stackoverflow.com/questions/tagged/sumelms](https://stackoverflow.com/questions/tagged/sumelms)).
-    - Chat with the community on the [Reddit] forum ([https://new.reddit.com/r/sumelms/](https://new.reddit.com/r/sumelms/)).
+  - Sumé Community on [Discord](https://discord.com/invite/aaJzjBunTZ), in case you need help or want to make suggestions.
+  - Look for / ask questions at [Stack Overflow] ([https://stackoverflow.com/questions/tagged/sumelms](https://stackoverflow.com/questions/tagged/sumelms)).
+  - Chat with the community on the [Reddit] forum ([https://new.reddit.com/r/sumelms/](https://new.reddit.com/r/sumelms/)).
