@@ -10,9 +10,9 @@ slug: /
 
 ## Features
 
-## Contributing guide
+## Contribution
 
-Please check the instructions on [How to Contribute](/docs/development/contribute).
+Please check the instructions on [Contributing Guide](/docs/development/contribute) before making a pull request.
 
 ## Code of Conduct
 
