@@ -42,7 +42,7 @@ If you want to contribute, open an issue in the respective repository on [GitHub
 
 ## Project Management (maintainers only)
 
-In order to keep things organized all our repositories is able to have their own issues, but you can found our [project board with all the tickets here](https://github.com/orgs/sumelms/projects/1).
+To keep things organized all our repositories can have their issues, but you can found our [project board with all the tickets here](https://github.com/orgs/sumelms/projects/1).
 
 ### Ticket classification
 
@@ -53,11 +53,11 @@ In order to keep things organized all our repositories is able to have their own
 
 This type of issues we call them "planning issues", 'cause they are the ones that can control and track the execution of the other issues.
 
-These tasks should, in fact, hold the necessary amount of the strategic view of its goal as well the links to other documents and related issues - nothing more, nothing less.
+These tasks should hold the necessary amount of the strategic view of its goal as well the links to other documents and related issues - nothing more, nothing less.
 
-In order to help you to identify an Epic and a User Story, remember:
+To help you to identify an Epic and a User Story, remember:
 
-- Cannot be assign to anybody
+- Cannot be assigned to anybody
 - N**ormally** lives at the [main repository](https://github.com/sumelms/sumelms)
 - Do not generate any PR
 - Cannot be directly executed
@@ -66,10 +66,10 @@ In order to help you to identify an Epic and a User Story, remember:
 
 Issues are executable tasks. If they are related to new features or enhancements, it is pretty common that they are part of a User Story, also these small and executable tasks can be bugs, in this case, it is pretty normal that they are **not** related to any User Story.
 
-In order to help you to identify an Issue, remember:
+To help you to identify an Issue, remember:
 
-- Can be assign to someone
-- Lives in task-specific repository
+- Can be assigned to someone
+- Lives in the task-specific repository
 - Can be executed
 - **Normally** results in a PR
 
