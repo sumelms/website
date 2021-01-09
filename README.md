@@ -79,19 +79,36 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ## Contributing
 
-Thank you for considering contributing to the project. In order to ensure that the Sumé LMS community is welcome to all make sure to read our [Contributor Guideline](https://www.sumelms.com/docs/ontributing).
+Thank you for considering contributing to the project. In order to ensure that the Sumé LMS community is welcome to all make sure to read our [Contributor Guideline](https://www.sumelms.com/docs/development/contribute).
 
 ## Code of Conduct
 
-@TODO
+Would you like to contribute and participate in our communities? Please read our [Code of Conduct](https://www.sumelms.com/docs/conduct).
 
 ## Team
 
-@TODO
+### Core
+
+- Ariane Rocha (@arianerocha)
+- Camila Moura (@mouracamila)
+- Ricardo Lüders (@rluders)
+
+### Contributors
+
+...
 
 ## Support
 
-@TODO
+### Discussion
+
+You can reach us or get community support in our [Discord server](https://discord.gg/Yh9q9cd). This is the best way to
+find help and get in touch with the community.
+
+### Bugs or feature requests
+
+If you found a bug or have a feature request, the best way to do
+it is [opening an issue](https://github.com/sumelms/website/issues).
+
 
 ## License
 
