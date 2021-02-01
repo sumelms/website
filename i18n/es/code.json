@@ -1,42 +1,42 @@
 {
   "reasons.item-list.1.title": {
-    "message": "Open-Source",
+    "message": "Código Abierto",
     "description": "Reason list item title"
   },
   "reasons.item-list.1.content": {
-    "message": "It is Open-Source and free to use. Sumé LMS is licensed by Apache 2.0. It means that you can download, host, and use it.",
+    "message": "Es de código abierto y libre de usar. Sumé LMS está licenciado por Apache 2.0. Significa que puede descargarlo, alojar y usarlo.",
     "description": "Reason list item content"
   },
   "reasons.item-list.2.title": {
-    "message": "People",
+    "message": "Personas",
     "description": "Reason list item title"
   },
   "reasons.item-list.2.content": {
-    "message": "Designed by people to people, to understand his needs and desires for a better experience.",
+    "message": "Diseñado por la gente a la gente, para entender sus necesidades y deseos para una mejor experiencia.",
     "description": "Reason list item content"
   },
   "reasons.item-list.3.title": {
-    "message": "Modern",
+    "message": "Moderna",
     "description": "Reason list item title"
   },
   "reasons.item-list.3.content": {
-    "message": "It uses K8s, Container, React and Go. All the cool kids on the block are here.",
+    "message": "Utiliza K8s, Contenedor, React y Go. Todos los chicos del bloque están aquí.",
     "description": "Reason list item content"
   },
   "reasons.item-list.4.title": {
-    "message": "Distributed",
+    "message": "Distribuido",
     "description": "Reason list item title"
   },
   "reasons.item-list.4.content": {
-    "message": "The application structure allows you to design and use micro-services.",
+    "message": "La estructura de la aplicación le permite diseñar y utilizar microservicios.",
     "description": "Reason list item content"
   },
   "reasons.item-list.5.title": {
-    "message": "Community",
+    "message": "Comunidad",
     "description": "Reason list item title"
   },
   "reasons.item-list.5.content": {
-    "message": "All knowledge developed by people must be owned by people.",
+    "message": "Todo el conocimiento desarrollado por las personas debe ser propiedad de las personas.",
     "description": "Reason list item content"
   },
   "reasons.item-list.6.title": {
@@ -44,107 +44,107 @@
     "description": "Reasons list item title"
   },
   "reasons.item-list.6.content": {
-    "message": "SCORM and xAPI were supported. But you should try to use Guaraná.",
+    "message": "SCORM y xAPI fueron soportados, pero usted debe tratar de usar Guaraná.",
     "description": "Reasons list item content"
   },
   "features.item-list.1.toptitle": {
-    "message": "Student Space",
+    "message": "Espacio del estudiante",
     "description": "Feature list item toptitle"
   },
   "features.item-list.1.title": {
-    "message": "Your space to learn",
+    "message": "Tu espacio para aprender",
     "description": "Feature list item title"
   },
   "features.item-list.1.description": {
-    "message": "You can customize it and get access to the courses based on your interest. While you learn, the platform will also learn and adapt to help you to get the best results. The student space is the perfect place to improve the way that you learn while you follow your progress and get in touch with the instructor and other students.",
+    "message": "Puedes personalizarlo y acceder a los cursos en función de tu interés. Mientras aprendes, la plataforma también aprenderá y se adaptará para ayudarte a obtener los mejores resultados. El espacio de estudiantes es el lugar perfecto para mejorar la forma en que aprendes mientras sigues tu progreso y ponte en contacto con el instructor y otros estudiantes.",
     "description": "Feature list item description"
   },
   "features.item-list.2.toptitle": {
-    "message": "Instructor Space",
+    "message": "Espacio del instructor",
     "description": "Feature list item toptitle"
   },
   "features.item-list.2.title": {
-    "message": "Your space to learn",
+    "message": "Tu espacio para aprender",
     "description": "Feature list item title"
   },
   "features.item-list.2.description": {
-    "message": "The control of the content is in your hands. Get statistics about the student progress, and course statistics. Find out how to improve the way that your content is delivered to the students while you plan your course or next class.",
+    "message": "El control del contenido está en tus manos. Obtén estadísticas sobre el progreso del estudiante y las estadísticas del curso. Averigua cómo mejorar la manera en que tu contenido se entrega a los estudiantes mientras planeas tu curso o próxima clase.",
     "description": "Feature list item description"
   },
   "features.item-list.3.toptitle": {
-    "message": "For Organizations",
+    "message": "Para Organizaciones",
     "description": "Feature list item toptitle"
   },
   "features.item-list.3.title": {
-    "message": "Company or school",
+    "message": "Empresa o escuela",
     "description": "Feature list item title"
   },
   "features.item-list.3.description": {
-    "message": "Distribute knowledge is part of your business, and your organization can have multiple spaces to learn, collaborate, and share. Manage multiple learning spaces, and help your collaborators or students in their learning journey.",
+    "message": "Distribuir el conocimiento es parte de su negocio, y su organización puede tener múltiples espacios para aprender, colaborar y compartir. Administre múltiples espacios de aprendizaje y ayude a sus colaboradores o estudiantes en su viaje de aprendizaje.",
     "description": "Feature list item description"
   },
   "homepage.banner.words.1": {
-    "message": "smart.",
+    "message": "inteligente.",
     "description": "Animated banner word."
   },
   "homepage.banner.words.2": {
-    "message": "accessible.",
+    "message": "accesible.",
     "description": "Animated banner word."
   },
   "homepage.banner.words.3": {
-    "message": "open-source.",
+    "message": "código Abierto.",
     "description": "Animated banner word."
   },
   "homepage.banner.words.4": {
-    "message": "yours!",
+    "message": "tuyo!",
     "description": "Animated banner word."
   },
   "homepage.banner.phrase": {
-    "message": "Education that evolved to be",
+    "message": "Educación que evolucionó a ser",
     "description": "Homepage banner phrase"
   },
   "homepage.banner.subtitle": {
-    "message": "A fast and modern e-learning platform designed for humans.",
+    "message": "Una plataforma de e-learning rápida y moderna diseñada para los humanos.",
     "description": "Homepage banner subtitle"
   },
   "homepage.banner.button-github": {
-    "message": "View on Github",
+    "message": "Ver en Github",
     "description": "Homepage banner button to visit github"
   },
   "homepage.banner.button-download": {
-    "message": "Download",
+    "message": "Descargar",
     "description": "Homepage banner button to download"
   },
   "homepage.section.reasons.title": {
-    "message": "Why Sumé LMS?",
+    "message": "¿Qué es Sumé LMS?",
     "description": "Homepage Reasons section title"
   },
   "homepage.section.install.title": {
-    "message": "Install everywhere",
+    "message": "Instalar en cualquier lugar",
     "description": "Homepage Installs section title"
   },
   "homepage.section.install.subtitle": {
-    "message": "Some of our guides to help you to install.",
+    "message": "Algunas de nuestras guías para ayudarle a instalar.",
     "description": "Homepage Installs section subtitle"
   },
   "homepage.section.install.button": {
-    "message": "Getting started",
+    "message": "Comenzando",
     "description": "Homepage Install section button"
   },
   "homepage.section.community.title": {
-    "message": "Do the Evolution",
+    "message": "Hacer la Evolución",
     "description": "Homepage Community secion button"
   },
   "homepage.section.community.text.1": {
-    "message": "Together we can build a better future. Join us and help us to develop the future of the e-learning application.",
+    "message": "Juntos podemos construir un futuro mejor. Únete a nosotros y ayúdanos a desarrollar el futuro de la aplicación de e-learning.",
     "description": "Homepage Community section text"
   },
   "homepage.section.community.text.2": {
-    "message": "We are looking for great minds that want to help us to develop the best experience for everybody. Join us as a developer, designer, content creator, student, or educator.",
+    "message": "Estamos buscando grandes mentes que quieran ayudarnos a desarrollar la mejor experiencia para todos. Únete a nosotros como desarrollador, diseñador, creador de contenidos, estudiante o educador.",
     "description": "Homepage Community section text"
   },
   "homepage.section.community.button": {
-    "message": "Join the community",
+    "message": "Únete a la comunidad",
     "description": "Homepage Community section button"
   }
 }

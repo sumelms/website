@@ -1,14 +1,14 @@
 {
   "link.title.About": {
-    "message": "About",
+    "message": "Sobre",
     "description": "The title of the footer links column with title=About in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "Comunidad",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.Other Projects": {
-    "message": "Other Projects",
+    "message": "Otros proyectos",
     "description": "The title of the footer links column with title=Other Projects in the footer"
   },
   "link.item.label.Style Guide": {
@@ -16,11 +16,11 @@
     "description": "The label of footer link with label=Style Guide linking to docs/"
   },
   "link.item.label.What is Sumé LMS?": {
-    "message": "What is Sumé LMS?",
+    "message": "¿Qué es Sumé LMS?",
     "description": "The label of footer link with label=What is Sumé LMS? linking to docs/"
   },
   "link.item.label.The Team": {
-    "message": "The Team",
+    "message": "El equipo",
     "description": "The label of footer link with label=The Team linking to docs/"
   },
   "link.item.label.Contact Us": {
@@ -32,7 +32,7 @@
     "description": "The label of footer link with label=Become Partnes linking to docs/"
   },
   "link.item.label.Code of Conduct": {
-    "message": "Code of Conduct",
+    "message": "Código de conducta",
     "description": "The label of footer link with label=Code of Conduct linking to docs/conduct"
   },
   "link.item.label.Stack Overflow": {
@@ -60,7 +60,7 @@
     "description": "The footer copyright"
   },
   "link.item.label.Become Partner": {
-    "message": "Become Partner",
+    "message": "Hazte socio",
     "description": "The label of footer link with label=Become Partner linking to docs/"
   }
 }
