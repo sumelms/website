@@ -51,9 +51,9 @@
     "message": "Guaraná",
     "description": "The label of footer link with label=Guaraná linking to https://github.com/sumelms/guarana"
   },
-  "link.item.label.Creators Manual": {
-    "message": "Creators Manual",
-    "description": "The label of footer link with label=Creators Manual linking to https://github.com/sumelms/creators-manual"
+  "link.item.label.Edu": {
+    "message": "Educator's Manual",
+    "description": "The label of footer link with label=Educator's Manual linking to https://edu.sumelms.com"
   },
   "copyright": {
     "message": "Copyright © 2020 Sumé LMS. Built with Docusaurus.",

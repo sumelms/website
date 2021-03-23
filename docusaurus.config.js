@@ -101,8 +101,8 @@ module.exports = {
               href: "https://github.com/sumelms/guarana",
             },
             {
-              label: "Creators Manual",
-              href: "https://github.com/sumelms/creators-manual",
+              label: "Edu",
+              href: "https://edu.sumelms.com",
             },
           ],
         },
