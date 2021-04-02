@@ -146,13 +146,19 @@ module.exports = {
   ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'pt'],
+    locales: ['en', 'pt', 'es', 'cz'],
     localeConfigs: {
       en: {
         label: 'English',
       },
       pt: {
         label: 'Português',
+      },
+      es: {
+        label: 'Español',
+      },
+      cz: {
+        label: 'Češka',
       },
     },
   },
