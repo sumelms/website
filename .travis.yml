@@ -1,14 +1,11 @@
 language: node_js
-
 node_js:
-  - '10'
-
+  - 'stable'
 branches:
   only:
     - main
 cache:
   yarn: true
-
 script:
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
