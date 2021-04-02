@@ -1,26 +1,33 @@
+/** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Sumé LMS",
   tagline: "Evolving Education.",
-  url: "https://sumelms.com",
-  baseUrl: "/",
-  favicon: "img/favicon.ico",
   organizationName: "sumelms", // Usually your GitHub org/user name.
   projectName: "website", // Usually your repo name.
-  i18n: {
-    defaultLocale: "pt",
-    locales: ["en", "pt"],
-  },
+  url: "https://sumelms.com",
+  baseUrl: "/",
+  baseUrlIssueBanner: true,
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
   customFields: {
     description:
       "Sumé is a modern, fast, and open-source learning management system.",
   },
   themeConfig: {
+    hideableSidebar: true,
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       logo: {
         alt: "Sumé LMS Logo",
         src: "img/logo.svg",
       },
       items: [
+        // left
         {
           to: "docs/",
           activeBasePath: "docs",
@@ -31,6 +38,11 @@ module.exports = {
           href: "https://medium.com/sumelms",
           label: "Blog",
           position: "left",
+        },
+        // right
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
         {
           href: "https://github.com/sumelms",
@@ -117,8 +129,14 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: ({ locale, versionDocsDirPath, docPath }) => {
+            if (locale !== "en") {
+              return `https://crowdin.com/project/sum-lms-website/${locale}`;
+            }
+            return `https://github.com/sumelms/website/edit/master/website/${versionDocsDirPath}/${docPath}`;
+          },
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -126,4 +144,22 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'pt', 'es', 'cz'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      pt: {
+        label: 'Português',
+      },
+      es: {
+        label: 'Español',
+      },
+      cz: {
+        label: 'Češka',
+      },
+    },
+  },
 };
