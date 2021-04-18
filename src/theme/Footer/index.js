@@ -11,6 +11,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
+import ThemedImage from '@theme/ThemedImage';
 import styles from "./styles.module.css";
 
 import {
@@ -45,8 +46,8 @@ function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
   );
 }
 
-const FooterLogo = ({ url, alt }) => (
-  <img className="footer__logo" alt={alt} src={url} />
+const FooterLogo = ({sources, alt}) => (
+  <ThemedImage className="footer__logo" alt={alt} sources={sources} />
 );
 
 function Footer() {
@@ -56,7 +57,10 @@ function Footer() {
   const { footer } = themeConfig;
 
   const { copyright, links = [], logo = {} } = footer || {};
-  const logoUrl = useBaseUrl(logo.src);
+  const sources = {
+    light: useBaseUrl(logo.src),
+    dark: useBaseUrl(logo.srcDark || logo.src),
+  };
 
   if (!footer) {
     return null;
@@ -70,7 +74,21 @@ function Footer() {
     >
       <div className="container ">
         <div className="col footer__col">
-          <FooterLogo alt={logo.alt} url={logoUrl} />
+          {logo && (logo.src || logo.srcDark) && (
+            <div className="margin-bottom--sm">
+              {logo.href ? (
+                <a
+                  href={logo.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.footerLogoLink}>
+                  <FooterLogo alt={logo.alt} sources={sources} />
+                </a>
+              ) : (
+                <FooterLogo alt={logo.alt} sources={sources} />
+              )}
+            </div>
+          )}
         </div>
 
         {links && links.length > 0 && (

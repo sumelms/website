@@ -56,6 +56,7 @@ module.exports = {
       logo: {
         alt: "Sumé LMS Logo",
         src: "img/logo.svg",
+        srcDark: "img/logo_dark.svg",
         href: "https://www.sumelms.com",
       },
       style: "light",
