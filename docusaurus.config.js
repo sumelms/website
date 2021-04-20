@@ -25,6 +25,7 @@ module.exports = {
       logo: {
         alt: "Sumé LMS Logo",
         src: "img/logo.svg",
+        srcDark: "img/logo_dark.svg",
       },
       items: [
         // left
@@ -53,9 +54,10 @@ module.exports = {
     },
     footer: {
       logo: {
-        alt: "Facebook Open Source Logo",
+        alt: "Sumé LMS Logo",
         src: "img/logo.svg",
-        href: "https://opensource.facebook.com",
+        srcDark: "img/logo_dark.svg",
+        href: "https://www.sumelms.com",
       },
       style: "light",
       links: [
