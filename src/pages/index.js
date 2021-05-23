@@ -229,14 +229,15 @@ function Home() {
               message: "View on Github",
             })}
             href="https://github.com/sumelms"
+            target="_blank"
           />
           <Button
             text={translate({
-              id: "homepage.banner.button-download",
-              description: "Homepage banner button to download",
-              message: "Download",
+              id: "homepage.banner.button-more",
+              description: "Homepage banner button to more",
+              message: "Learn more",
             })}
-            href="#"
+            href="/docs/"
           />
         </HomeBanner>
       </Section>
@@ -292,7 +293,7 @@ function Home() {
               description: "Homepage Install section button",
               message: "Getting started",
             })}
-            href="#"
+            href="/docs/install"
           />
         </div>
       </Section>
@@ -333,7 +334,8 @@ function Home() {
                 description: "Homepage Community section button",
                 message: "Join the community",
               })}
-              href="#"
+              href="https://discord.gg/Yx98nwK"
+              target="_blank"
             />
           </ImageCard>
         </div>

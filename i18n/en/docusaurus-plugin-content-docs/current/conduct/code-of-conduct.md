@@ -1,7 +1,7 @@
 ---
 id: conduct
-title: Código de conduta
-sidebar_label: Código de conduta
+title: Code of Conduct
+sidebar_label: Code of Conduct
 slug: /conduct
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: configure
-title: Configure
-sidebar_label: Configure
+title: Configurar
+sidebar_label: Configurar
 slug: /configure
 ---
 
-Configure page
+@TODO

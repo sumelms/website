@@ -31,10 +31,5 @@ module.exports = {
         "development/contribute",
       ],
     },
-    {
-      type: "category",
-      label: "Education",
-      items: ["education/about"],
-    },
   ],
 };
