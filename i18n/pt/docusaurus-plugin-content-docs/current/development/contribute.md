@@ -1,7 +1,7 @@
 ---
 id: contribute
-title: Guia de contribuição
-sidebar_label: Contribua
+title: Contributing Guide
+sidebar_label: Contribute
 slug: /development/contribute
 ---
 

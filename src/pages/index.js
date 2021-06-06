@@ -21,6 +21,29 @@ import Card from "../components/Card";
 
 import styles from "./styles.module.css";
 
+const words = [
+  translate({
+    id: "homepage.banner.words.1",
+    description: "First animated banner word.",
+    message: "open.",
+  }),
+  translate({
+    id: "homepage.banner.words.2",
+    description: "Second animated banner word.",
+    message: "adaptative.",
+  }),
+  translate({
+    id: "homepage.banner.words.3",
+    description: "Third animated banner word.",
+    message: "inclusive.",
+  }),
+  translate({
+    id: "homepage.banner.words.4",
+    description: "Fourth animated banner word.",
+    message: "yours!",
+  }),
+];
+
 const reasons = [
   {
     title: translate({
@@ -32,7 +55,7 @@ const reasons = [
       id: "reasons.item-list.1.content",
       description: "Reason list item content",
       message:
-        "It is Open-Source and free to use. Sumé LMS is licensed by Apache 2.0. It means that you can download, host, and use it.",
+        "Licensed by Apache 2.0, the open source is free to download, host and use by everyone.",
     }),
     icon: <FiBookOpen size={24} />,
   },
@@ -40,13 +63,13 @@ const reasons = [
     title: translate({
       id: "reasons.item-list.2.title",
       description: "Reason list item title",
-      message: "People",
+      message: "Made for people",
     }),
     content: translate({
       id: "reasons.item-list.2.content",
       description: "Reason list item content",
       message:
-        "Designed by people to people, to understand his needs and desires for a better experience.",
+        "Made to understand the needs of educators and learners and improve their experiences.",
     }),
     icon: <FiUser size={24} />,
   },
@@ -60,7 +83,7 @@ const reasons = [
       id: "reasons.item-list.3.content",
       description: "Reason list item content",
       message:
-        "It uses K8s, Container, React and Go. All the cool kids on the block are here.",
+        "Developed with Go and React, it is ready to be used with Kubernetes and run in containers.",
     }),
     icon: <FiZap size={24} />,
   },
@@ -74,7 +97,7 @@ const reasons = [
       id: "reasons.item-list.4.content",
       description: "Reason list item content",
       message:
-        "The application structure allows you to design and use micro-services.",
+        "Its microservice architecture ensures high availability and scalability.",
     }),
     icon: <FiGlobe size={24} />,
   },
@@ -87,7 +110,7 @@ const reasons = [
     content: translate({
       id: "reasons.item-list.5.content",
       description: "Reason list item content",
-      message: "All knowledge developed by people must be owned by people.",
+      message: "Environment developed based on guidelines and needs of the educational community.",
     }),
     icon: <FiLink size={24} />,
   },
@@ -101,7 +124,7 @@ const reasons = [
       id: "reasons.item-list.6.content",
       description: "Reasons list item content",
       message:
-        "SCORM and xAPI were supported. But you should try to use Guaraná.",
+        "Support for SCORM and xAPI, which facilitates migration, and also for our own format, Guaraná.",
     }),
     icon: <FiCheck size={24} />,
   },
@@ -112,39 +135,39 @@ const features = [
     topTitle: translate({
       id: "features.item-list.1.toptitle",
       description: "Feature list item toptitle",
-      message: "Student Space",
+      message: "Educator Space",
     }),
     title: translate({
       id: "features.item-list.1.title",
       description: "Feature list item title",
-      message: "Your space to learn",
+      message: "A space to teach",
     }),
     description: translate({
       id: "features.item-list.1.description",
       description: "Feature list item description",
       message:
-        "You can customize it and get access to the courses based on your interest. While you learn, the platform will also learn and adapt to help you to get the best results. The student space is the perfect place to improve the way that you learn while you follow your progress and get in touch with the instructor and other students.",
+        "Within Sumé, the educator has control of the content in his hands. By using the tools available on the platform, in addition to assembling and making the content available, the educator can obtain statistics on the performance and progress of their students, classes and courses. Through automated analysis, he can find ways to optimize content and teach classes, adapting them to the needs of each student.",
     }),
-    image: <img src="img/img01.svg" alt="Img 01" />,
+    image: <img src="img/features/educator-space.svg" alt="Educator Space Image" />,
   },
   {
     topTitle: translate({
       id: "features.item-list.2.toptitle",
       description: "Feature list item toptitle",
-      message: "Instructor Space",
+      message: "Student Space",
     }),
     title: translate({
       id: "features.item-list.2.title",
       description: "Feature list item title",
-      message: "Your space to learn",
+      message: "A space to learn",
     }),
     description: translate({
       id: "features.item-list.2.description",
       description: "Feature list item description",
       message:
-        "The control of the content is in your hands. Get statistics about the student progress, and course statistics. Find out how to improve the way that your content is delivered to the students while you plan your course or next class.",
+        "Here, the student also has the autonomy to customize the way they want to access the content in which they are interested. And while he learns, the platform learns from him and adapts to help improve his performance. The Student Lounge is perfect for improving the way a student learns as it monitors their progress as they interact with their educators and other students.",
     }),
-    image: <img src="img/img02.svg" alt="Img 02" />,
+    image: <img src="img/features/student-space.svg" alt="Student Space Image" />,
   },
   {
     topTitle: translate({
@@ -155,47 +178,57 @@ const features = [
     title: translate({
       id: "features.item-list.3.title",
       description: "Feature list item title",
-      message: "Company or school",
+      message: "For the public or private sector",
     }),
     description: translate({
       id: "features.item-list.3.description",
       description: "Feature list item description",
       message:
-        "Distribute knowledge is part of your business, and your organization can have multiple spaces to learn, collaborate, and share. Manage multiple learning spaces, and help your collaborators or students in their learning journey.",
+        "The Sumé LMS can still be used as a corporate knowledge distribution platform. With it, it is possible to find different ways to teach, learn, share and collaborate within public and private organizations. The platform allows you to manage multiple learning spaces and helps servers and employees on their journey through knowledge.",
     }),
-    image: <img src="img/img03.svg" alt="Img 03" />,
+    image: <img src="img/features/organization-space.svg" alt="Organization Space Image" />,
   },
 ];
 
 const installs = [
-  { url: "#", image: "img/linux.svg", title: "Self hosted" },
-  { url: "#", image: "img/azure.svg", title: "Microsoft Azure" },
-  { url: "#", image: "img/openShift.svg", title: "Red Hat Openshift" },
-  { url: "#", image: "img/amazon.svg", title: "Amazon Cloud" },
+  { 
+    url: "#", 
+    image: "img/installs/selfhosted.svg", 
+    title: translate({
+      id: "homepage.section.install.items.self-hosted",
+      description: "Self hosted installation item",
+      message: "Self hosted",
+    })
+  },
+  { 
+    url: "#", 
+    image: "img/installs/azure.svg", 
+    title: translate({
+      id: "homepage.section.install.items.microsoft-azure",
+      description: "Microsoft Azure installation item",
+      message: "Microsoft Azure"
+    })
+  },
+  { 
+    url: "#",
+    image: "img/installs/openshift.svg",
+    title: translate({
+      id: "homepage.section.install.items.openshift",
+      description: "Openshift installation item",
+      message: "Red Hat Openshift"
+    })
+  },
+  { 
+    url: "#",
+    image: "img/installs/amazon.svg",
+    title: translate({
+      id: "homepage.section.install.items.aws",
+      description: "Amazon installation item",
+      message: "Amazon Cloud"
+    })
+  },
 ];
 
-const words = [
-  translate({
-    id: "homepage.banner.words.1",
-    description: "Animated banner word.",
-    message: "smart.",
-  }),
-  translate({
-    id: "homepage.banner.words.2",
-    description: "Animated banner word.",
-    message: "accessible.",
-  }),
-  translate({
-    id: "homepage.banner.words.3",
-    description: "Animated banner word.",
-    message: "open-source.",
-  }),
-  translate({
-    id: "homepage.banner.words.4",
-    description: "Animated banner word.",
-    message: "yours!",
-  }),
-];
 
 function Home() {
   const context = useDocusaurusContext();
@@ -217,11 +250,19 @@ function Home() {
             id: "homepage.banner.subtitle",
             description: "Homepage banner subtitle",
             message:
-              "A fast and modern e-learning platform designed for humans.",
+              "A fast and modern online education platform, designed for the exchange of knowledge between people.",
           })}
-          image="img/HeroImage.svg"
+          image="img/banner-image.svg"
           words={words}
-        >
+        >          
+          <Button
+            text={translate({
+              id: "homepage.banner.button-more",
+              description: "Homepage banner button to more",
+              message: "Learn more",
+            })}
+            href="/docs/"
+          />
           <Button
             text={translate({
               id: "homepage.banner.button-github",
@@ -230,14 +271,6 @@ function Home() {
             })}
             href="https://github.com/sumelms"
             target="_blank"
-          />
-          <Button
-            text={translate({
-              id: "homepage.banner.button-more",
-              description: "Homepage banner button to more",
-              message: "Learn more",
-            })}
-            href="/docs/"
           />
         </HomeBanner>
       </Section>
@@ -302,20 +335,19 @@ function Home() {
         title={translate({
           id: "homepage.section.community.title",
           description: "Homepage Community secion button",
-          message: "Do the Evolution",
+          message: "Join the Evolution",
         })}
       >
         <div className={styles.sectionJoinUs}>
           <ImageCard
-            image={<img src="/img/evolution.svg" alt="Do the Evolution" />}
+            image={<img src="img/evolution.svg" alt="Join the Evolution" />}
           >
             <p>
               <Translate
                 id="homepage.section.community.text.1"
                 description="Homepage Community section text"
               >
-                Together we can build a better future. Join us and help us to
-                develop the future of the e-learning application.
+                Together we can build a better future
               </Translate>
             </p>
             <p>
@@ -323,9 +355,14 @@ function Home() {
                 id="homepage.section.community.text.2"
                 description="Homepage Community section text"
               >
-                We are looking for great minds that want to help us to develop
-                the best experience for everybody. Join us as a developer,
-                designer, content creator, student, or educator.
+                Education has always been and must continue to be a collective construction and an exchange of knowledge. And the arrival of technology only facilitated this process. So, as much as the first step of the Sumé LMS has been taken by us, we invite you to join us in developing the future of online learning technology.
+                We are looking for great minds who are willing to help us with developing strategies and tools to bring the best experience to everyone involved. Join our team of developers, designers, content creators, educators or students.
+              </Translate>
+              <Translate
+                id="homepage.section.community.text.3"
+                description="Homepage Community section text"
+              >
+                We are looking for great minds who are willing to help us with developing strategies and tools to bring the best experience to everyone involved. Join our team of developers, designers, content creators, educators or students.
               </Translate>
             </p>
             <Button

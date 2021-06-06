@@ -1,8 +1,8 @@
 ---
 id: install
-title: Instalar
-sidebar_label: Instalar
+title: Install
+sidebar_label: Install
 slug: /install
 ---
 
-@TODO
+Install page

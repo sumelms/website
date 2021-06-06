@@ -1,4 +1,20 @@
 {
+  "homepage.banner.words.1": {
+    "message": "aberta.",
+    "description": "First animated banner word."
+  },
+  "homepage.banner.words.2": {
+    "message": "adaptativa.",
+    "description": "Second animated banner word."
+  },
+  "homepage.banner.words.3": {
+    "message": "inclusiva.",
+    "description": "Third animated banner word."
+  },
+  "homepage.banner.words.4": {
+    "message": "seu!",
+    "description": "Fourth animated banner word."
+  },
   "reasons.item-list.1.title": {
     "message": "Código aberto",
     "description": "Reason list item title"
@@ -48,19 +64,19 @@
     "description": "Reasons list item content"
   },
   "features.item-list.1.toptitle": {
-    "message": "Espaço do Estudante",
+    "message": "Espaço do Educador",
     "description": "Feature list item toptitle"
   },
   "features.item-list.1.title": {
-    "message": "Um espaço para aprender",
+    "message": "Um espaço para ensinar",
     "description": "Feature list item title"
   },
   "features.item-list.1.description": {
-    "message": "Aqui, o estudante também tem autonomia para customizar a forma como quer acessar os conteúdos pelos quais tem interesse. E enquanto ele aprende, a plataforma aprende com ele e se adapta para ajudar a melhorar seu desempenho. O Espaço do Estudante é perfeito para melhorar o modo como o aluno aprende, pois monitora seu progresso enquanto ele interage com seus educadores e outros estudantes.",
+    "message": "Dentro da Sumé, o educador tem o controle do conteúdo em suas mãos. Ao usar as ferramentas disponíveis na plataforma, além de montar e disponibilizar o conteúdo, o educador consegue obter estatísticas sobre o desempenho e o progresso de seus alunos, turmas e cursos. Por meio de análises automatizadas, ele pode encontrar maneiras de otimizar os conteúdos e ministrar as aulas, adequando-as às necessidades de cada aluno.",
     "description": "Feature list item description"
   },
   "features.item-list.2.toptitle": {
-    "message": "Espaço do Educador",
+    "message": "Espaço do Estudante",
     "description": "Feature list item toptitle"
   },
   "features.item-list.2.title": {
@@ -68,7 +84,7 @@
     "description": "Feature list item title"
   },
   "features.item-list.2.description": {
-    "message": "Dentro da Sumé, o educador tem o controle do conteúdo em suas mãos. Ao usar as ferramentas disponíveis na plataforma, além de montar e disponibilizar o conteúdo, o educador consegue obter estatísticas sobre o desempenho e o progresso de seus alunos, turmas e cursos. Por meio de análises automatizadas, ele pode encontrar maneiras de otimizar os conteúdos e ministrar as aulas, adequando-as às necessidades de cada aluno.",
+    "message": "Aqui, o estudante também tem autonomia para customizar a forma como quer acessar os conteúdos pelos quais tem interesse. E enquanto ele aprende, a plataforma aprende com ele e se adapta para ajudar a melhorar seu desempenho. O Espaço do Estudante é perfeito para melhorar o modo como o aluno aprende, pois monitora seu progresso enquanto ele interage com seus educadores e outros estudantes.",
     "description": "Feature list item description"
   },
   "features.item-list.3.toptitle": {
@@ -83,21 +99,21 @@
     "message": "O Sumé LMS ainda pode ser usado como plataforma de distribuição de conhecimento corporativo. Com ela, é possível encontrar diferentes maneiras de ensinar, aprender, compartilhar e colaborar dentro de organizações públicas e privadas. A plataforma permite gerenciar vários espaços de aprendizagem e ajuda servidores e funcionários em sua jornada pelo conhecimento.",
     "description": "Feature list item description"
   },
-  "homepage.banner.words.1": {
-    "message": "ABERTA.",
-    "description": "Animated banner word."
+  "homepage.section.install.items.self-hosted": {
+    "message": "Self hosted",
+    "description": "Self hosted installation item"
   },
-  "homepage.banner.words.2": {
-    "message": "ADAPTATIVA.",
-    "description": "Animated banner word."
+  "homepage.section.install.items.microsoft-azure": {
+    "message": "Microsoft Azure",
+    "description": "Microsoft Azure installation item"
   },
-  "homepage.banner.words.3": {
-    "message": "INCLUSIVA.",
-    "description": "Animated banner word."
+  "homepage.section.install.items.openshift": {
+    "message": "Red Hat Openshift",
+    "description": "Openshift installation item"
   },
-  "homepage.banner.words.4": {
-    "message": "SUA!",
-    "description": "Animated banner word."
+  "homepage.section.install.items.aws": {
+    "message": "Amazon Cloud",
+    "description": "Amazon installation item"
   },
   "homepage.banner.phrase": {
     "message": "Educação que evoluíu para ser",
@@ -107,16 +123,16 @@
     "message": "Uma plataforma rápida e moderna de educação online, desenvolvida para a troca de conhecimento entre as pessoas.",
     "description": "Homepage banner subtitle"
   },
-  "homepage.banner.button-github": {
-    "message": "Visite no Github",
-    "description": "Homepage banner button to visit github"
-  },
   "homepage.banner.button-more": {
     "message": "Saiba mais",
     "description": "Homepage banner button to more"
   },
+  "homepage.banner.button-github": {
+    "message": "Visite no Github",
+    "description": "Homepage banner button to visit github"
+  },
   "homepage.section.reasons.title": {
-    "message": "Por que o Sumé LMS?",
+    "message": "Por que Sumé LMS?",
     "description": "Homepage Reasons section title"
   },
   "homepage.section.install.title": {
@@ -140,7 +156,11 @@
     "description": "Homepage Community section text"
   },
   "homepage.section.community.text.2": {
-    "message": "A educação sempre foi e deve continuar sendo uma construção coletiva e uma troca de conhecimentos. E a chegada da tecnologia só facilitou esse processo. Por isso, por mais que o primeiro passo da Sumé LMS tenha sido dado por nós, convidamos você a juntar-se a nós para desenvolver o futuro da tecnologia do ensino online.<br>Estamos procurando por grandes mentes que estejam dispostas a nos ajudar com desenvolvimento de estratégias e ferramentas para a trazer a melhor experiência para todos os envolvidos. Venha fazer parte do nosso time de desenvolvedores, designers, criadores de conteúdo, educadores ou estudantes.",
+    "message": "A educação sempre foi e deve continuar sendo uma construção coletiva e uma troca de conhecimentos. E a chegada da tecnologia só facilitou esse processo. Por isso, por mais que o primeiro passo da Sumé LMS tenha sido dado por nós, convidamos você a juntar-se a nós para desenvolver o futuro da tecnologia do ensino online.",
+    "description": "Homepage Community section text"
+  },
+  "homepage.section.community.text.3": {
+    "message": "Estamos procurando por grandes mentes que estejam dispostas a nos ajudar com desenvolvimento de estratégias e ferramentas para a trazer a melhor experiência para todos os envolvidos. Venha fazer parte do nosso time de desenvolvedores, designers, criadores de conteúdo, educadores ou estudantes.",
     "description": "Homepage Community section text"
   },
   "homepage.section.community.button": {
@@ -152,11 +172,11 @@
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "Nós não pudemos encontrar o que você está procurando.",
+    "message": "Não foi possível encontrar o que você está procurando.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Por favor contate o propriertário do site que redirecionou você para esta página e informa que o link está querado.",
+    "message": "Por favor, entre em contato com o proprietário do site que conectou você com esta URL e avise eles que o link está quebrado.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -164,19 +184,19 @@
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Lista de navegação do blog",
+    "message": "Navegação da página de lista de blogs",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Entradas recentes",
+    "message": "Conteúdo mais novo",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Entradas antigas",
+    "message": "Conteúdo mais antigo",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "Um minutor de leitura|{readingTime} minutos de leitura",
+    "message": "Leitura de um minuto|Leitura de {readingTime} minutos",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.tags.tagsListLabel": {
@@ -188,15 +208,15 @@
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Navegação de públicações do blog",
+    "message": "Navegação da página de post do blog",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Publicações recentes",
+    "message": "Postagem mais nova",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Publicações antigas",
+    "message": "Postagem mais antiga",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageTitle": {
@@ -204,11 +224,11 @@
     "description": "The title of the tag list page"
   },
   "theme.blog.post.plurals": {
-    "message": "Uma publicação|{count} publicações",
+    "message": "Uma postagem|{count} postagens",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} publicação com a tag \"{tagName}\"|{nPosts} publicações com a tag \"{tagName}\"|",
+    "message": "{nPosts} marcados com \"{tagName}\"",
     "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
@@ -216,11 +236,11 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copiar código para área de transferência",
+    "message": "Copiar código para a área de transferência",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copied": {
-    "message": "Coiado",
+    "message": "Copiado",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copy": {
@@ -236,7 +256,7 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Navegação da página de documentação",
+    "message": "Navegação das páginas da documentação",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -248,15 +268,15 @@
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Recolher barra lateral",
+    "message": "Minimizar barra lateral",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Recolher barra lateral",
+    "message": "Minimizar barra lateral",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.responsiveCloseButtonLabel": {
-    "message": "Close menu",
+    "message": "Fechar menu",
     "description": "The ARIA label for close button of mobile doc sidebar"
   },
   "theme.docs.sidebar.responsiveOpenButtonLabel": {
@@ -264,15 +284,15 @@
     "description": "The ARIA label for open button of mobile doc sidebar"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Esta é a documentação não liberada para o {siteTitle} {versionLabel} versão.",
+    "message": "Esta é uma documentação não lançada para {siteTitle} {versionLabel}.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Esta é a documentação para o {siteTitle} {versionLabel}, que não é mais mantida.",
+    "message": "Esta é a documentação para {siteTitle} {versionLabel}, que não é mais mantida ativamente.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Para a ultima versão, acesse a {latestVersionLink} ({versionLabel}).",
+    "message": "Para a documentação atualizada, veja: {latestVersionLink} ({versionLabel}).",
     "description": "The label userd to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
@@ -280,7 +300,7 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Editar página",
+    "message": "Editar essa página",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
@@ -300,7 +320,7 @@
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.common.skipToMainContent": {
-    "message": "Saltar para conteúdo principal",
+    "message": "Pular para o conteúdo principal",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   }
 }

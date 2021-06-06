@@ -1,22 +1,18 @@
 {
   "version.label": {
-    "message": "Próximo",
+    "message": "Next",
     "description": "The label for version current"
   },
   "sidebar.docs.category.Conduct": {
-    "message": "Conduta",
+    "message": "Conduct",
     "description": "The label for category Conduct in sidebar docs"
   },
   "sidebar.docs.category.Getting Started": {
-    "message": "Comece agora",
+    "message": "Getting Started",
     "description": "The label for category Getting Started in sidebar docs"
   },
   "sidebar.docs.category.Development": {
-    "message": "Desenvolvimento",
+    "message": "Development",
     "description": "The label for category Development in sidebar docs"
-  },
-  "sidebar.docs.category.Education": {
-    "message": "Educação",
-    "description": "The label for category Education in sidebar docs"
   }
 }

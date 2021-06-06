@@ -1,8 +1,8 @@
 ---
 id: extend
-title: Extender
-sidebar_label: Extender
+title: Extend
+sidebar_label: Extend
 slug: /extend
 ---
 
-@TODO
+Extend page

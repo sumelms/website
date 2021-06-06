@@ -1,7 +1,7 @@
 ---
 id: start
-title: Desenvolvimento
-sidebar_label: Visão geral
+title: Development
+sidebar_label: Overview
 slug: /development
 ---
 
