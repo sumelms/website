@@ -1,34 +1,41 @@
 module.exports = {
-  docs: [
+  docs: [    
     {
       type: "doc",
-      id: "welcome",
+      id: "introduction"
     },
     {
-      type: "category",
-      label: "Conduct",
-      items: [
-        "conduct/conduct",
-        "conduct/enforcement",
-        "conduct/reporting",
-      ],
+      type: "doc",
+      id: "releases"
     },
+    {
+      type: "doc",
+      id: "upgrade"
+    },    
     {
       type: "category",
       label: "Getting Started",
       items: [
-        "getting-started/install",
-        "getting-started/configure",
-        "getting-started/extend",
+        "getting-started/installation",
+        "getting-started/configuration",
+        "getting-started/extending",
       ],
     },
     {
       type: "category",
       label: "Development",
       items: [
-        "development/start",
-        "development/debug",
-        "development/contribute",
+        
+      ],
+    },
+    {
+      type: "category",
+      label: "Community",
+      items: [
+        "community/contributing",
+        "community/conduct",
+        "community/support",
+        "community/team",
       ],
     },
   ],
