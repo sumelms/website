@@ -149,14 +149,14 @@
   },
   "homepage.section.community.title": {
     "message": "Junte-se à evolução",
-    "description": "Homepage Community secion button"
+    "description": "Homepage Community section title"
   },
-  "homepage.section.community.text.1": {
-    "message": "Juntos podemos construir um futuro melhor",
-    "description": "Homepage Community section text"
+  "homepage.section.community.subtitle": {
+    "message": "Together we can build a better future",
+    "description": "Homepage Community section subtitle"
   },
   "homepage.section.community.text.2": {
-    "message": "A educação sempre foi e deve continuar sendo uma construção coletiva e uma troca de conhecimentos. E a chegada da tecnologia só facilitou esse processo. Por isso, por mais que o primeiro passo da Sumé LMS tenha sido dado por nós, convidamos você a juntar-se a nós para desenvolver o futuro da tecnologia do ensino online.",
+    "message": "Education has always been and must continue to be a collective construction and an exchange of knowledge. And the arrival of technology only facilitated this process. So, as much as the first step of the Sumé LMS has been taken by us, we invite you to join us in developing the future of online learning technology.",
     "description": "Homepage Community section text"
   },
   "homepage.section.community.text.3": {

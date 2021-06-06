@@ -23,4 +23,4 @@ Using learning analytics tools, the platform provides better experiences for bot
 
 We are very happy about your interest in helping Sumé. Our community is made up of people like you, who wish to make a positive impact on society.
 
-Feel welcome, we are grateful for any help you can give us, but first, read our [Contributing Guide](/docs/contributing) to learn about our how to ask questions and contribute and our [Code of Conduct](/docs/conduct) know our community standards and values.
+Feel welcome, we are grateful for any help you can give us, but first, read our [Contributing Guide](/docs/development/contribute) to learn about our how to ask questions and contribute and our [Code of Conduct](/docs/conduct) know our community standards and values.

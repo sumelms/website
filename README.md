@@ -79,7 +79,7 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ## Contributing
 
-Thank you for considering contributing to the project. In order to ensure that the Sumé LMS community is welcome to all make sure to read our [Contributor Guideline](https://www.sumelms.com/docs/development/contribute).
+Thank you for considering contributing to the project. In order to ensure that the Sumé LMS community is welcome to all make sure to read our [Contributor Guideline](https://www.sumelms.com/docs/contributing).
 
 ## Code of Conduct
 
