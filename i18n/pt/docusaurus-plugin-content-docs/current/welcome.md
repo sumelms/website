@@ -8,8 +8,11 @@ slug: /
 ## About
 
 
-
 ## Features
+
+## Contribution
+
+Please check the instructions on [Contributing Guide](/docs/development/contribute) before making a pull request.
 
 ## Code of Conduct
 

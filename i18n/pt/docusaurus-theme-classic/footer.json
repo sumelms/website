@@ -27,13 +27,13 @@
     "message": "Contato",
     "description": "The label of footer link with label=Contact Us linking to docs/"
   },
-  "link.item.label.Become Partnes": {
-    "message": "Seja um parceiro",
-    "description": "The label of footer link with label=Become Partnes linking to docs/"
-  },
   "link.item.label.Code of Conduct": {
     "message": "Código de Conduta",
     "description": "The label of footer link with label=Code of Conduct linking to docs/conduct"
+  },
+  "link.item.label.Become Partner": {
+    "message": "Torne-se parceiro",
+    "description": "The label of footer link with label=Become Partner linking to docs/"
   },
   "link.item.label.Stack Overflow": {
     "message": "Stack Overflow",
@@ -52,15 +52,11 @@
     "description": "The label of footer link with label=Guaraná linking to https://github.com/sumelms/guarana"
   },
   "link.item.label.Edu": {
-    "message": "Manual do Educador",
-    "description": "The label of footer link with label=Educator's Manual linking to https://edu.sumelms.com"
+    "message": "Edu",
+    "description": "The label of footer link with label=Edu linking to https://edu.sumelms.com"
   },
   "copyright": {
-    "message": "Copyright © 2020 Sumé LMS. Construído com Docusaurus.",
+    "message": "Copyright © 2021 Sumé LMS. Construído com Docusaurus.",
     "description": "The footer copyright"
-  },
-  "link.item.label.Become Partner": {
-    "message": "Torne-se parceiro",
-    "description": "The label of footer link with label=Become Partner linking to docs/"
   }
 }
