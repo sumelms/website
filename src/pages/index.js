@@ -334,8 +334,13 @@ function Home() {
       <Section
         title={translate({
           id: "homepage.section.community.title",
-          description: "Homepage Community secion button",
+          description: "Homepage Community section title",
           message: "Join the Evolution",
+        })}
+        subtitle={translate({
+          id: "homepage.section.community.subtitle",
+          description: "Homepage Community section subtitle",
+          message: "Together we can build a better future"
         })}
       >
         <div className={styles.sectionJoinUs}>
@@ -344,20 +349,13 @@ function Home() {
           >
             <p>
               <Translate
-                id="homepage.section.community.text.1"
-                description="Homepage Community section text"
-              >
-                Together we can build a better future
-              </Translate>
-            </p>
-            <p>
-              <Translate
                 id="homepage.section.community.text.2"
                 description="Homepage Community section text"
               >
                 Education has always been and must continue to be a collective construction and an exchange of knowledge. And the arrival of technology only facilitated this process. So, as much as the first step of the Sumé LMS has been taken by us, we invite you to join us in developing the future of online learning technology.
-                We are looking for great minds who are willing to help us with developing strategies and tools to bring the best experience to everyone involved. Join our team of developers, designers, content creators, educators or students.
               </Translate>
+            </p>
+            <p>
               <Translate
                 id="homepage.section.community.text.3"
                 description="Homepage Community section text"

@@ -9,7 +9,7 @@ function RowCard(props) {
       <div className={styles.columnText}>
         <div>
           {topTitle && <span className={styles.topTitle}>{topTitle}</span>}
-          {title && <div className={styles.title}>{title}</div>}
+          {title && <h4 className={styles.title}>{title}</h4>}
           {children && <div>{children}</div>}
         </div>
       </div>
