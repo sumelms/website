@@ -5,6 +5,8 @@ sidebar_label: Code of Conduct
 slug: /conduct
 ---
 
+# Code of Conduct
+
 The Sumé community is dedicated to providing an inclusive and safe experience for everyone. The community is made up of a mixture of professionals from various fields, as well as volunteers from around the world, working in all aspects to make knowledge accessible and connect people passionate about the knowledge they want to share, learn and teach others.
 
 Diversity is one of our great strengths, but it can also lead to communication problems and unhappiness. To that end, we have some basic rules that we ask people to follow. This code applies equally to all who are part of the Sumé community, founders, educators, mentors, and those who seek help and guidance.
@@ -33,7 +35,3 @@ We have the right and responsibility to remove comments or other contributions t
 - **Be constructive.** Disagreements, both social and technical, happen all the time. When we disagree, try to understand why. It is important that we resolve disagreements constructively. Remember that we’re different and different people have different perspectives on issues. Being unable to understand why someone holds a viewpoint doesn’t mean that they’re wrong. Don’t forget that it is human to err and blaming each other doesn’t get us anywhere. Instead, focus on helping to resolve issues and learning from mistakes.
 
 Based on the text of the [Django Project](https://www.djangoproject.com/conduct/)
-
-#### Questions?
-
-If you have questions feel free to [contact us](mailto:conduct@sumelms.com).
