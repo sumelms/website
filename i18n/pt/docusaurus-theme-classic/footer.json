@@ -11,29 +11,9 @@
     "message": "Outros projetos",
     "description": "The title of the footer links column with title=Other Projects in the footer"
   },
-  "link.item.label.Style Guide": {
-    "message": "Guia de estilo",
-    "description": "The label of footer link with label=Style Guide linking to docs/"
-  },
-  "link.item.label.What is Sumé LMS?": {
-    "message": "O que é Sumé LMS?",
-    "description": "The label of footer link with label=What is Sumé LMS? linking to docs/"
-  },
-  "link.item.label.The Team": {
-    "message": "O Time",
-    "description": "The label of footer link with label=The Team linking to docs/"
-  },
-  "link.item.label.Contact Us": {
-    "message": "Contato",
-    "description": "The label of footer link with label=Contact Us linking to docs/"
-  },
   "link.item.label.Code of Conduct": {
     "message": "Código de Conduta",
     "description": "The label of footer link with label=Code of Conduct linking to docs/conduct"
-  },
-  "link.item.label.Become Partner": {
-    "message": "Torne-se parceiro",
-    "description": "The label of footer link with label=Become Partner linking to docs/"
   },
   "link.item.label.Stack Overflow": {
     "message": "Stack Overflow",
@@ -58,5 +38,13 @@
   "copyright": {
     "message": "Copyright © 2021 Sumé LMS. Construído com Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Contributing": {
+    "message": "Contribuíndo",
+    "description": "The label of footer link with label=Contributing linking to docs/contributing"
+  },
+  "link.item.label.Become Partner": {
+    "message": "Seja um Parceiro",
+    "description": "The label of footer link with label=Become Partners linking to docs/partners"
   }
 }

@@ -65,20 +65,8 @@ module.exports = {
           title: "About",
           items: [
             {
-              label: "Style Guide",
-              to: "docs/",
-            },
-            {
-              label: "What is Sumé LMS?",
-              to: "docs/",
-            },
-            {
-              label: "The Team",
-              to: "docs/",
-            },
-            {
-              label: "Contact Us",
-              to: "docs/",
+              label: "Contributing",
+              to: "docs/contributing",
             },
             {
               label: "Code of Conduct",
@@ -86,7 +74,7 @@ module.exports = {
             },
             {
               label: "Become Partner",
-              to: "docs/",
+              to: "docs/partners",
             },
           ],
         },
