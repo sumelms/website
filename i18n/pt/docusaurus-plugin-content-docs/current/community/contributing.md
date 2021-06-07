@@ -9,7 +9,9 @@ slug: /contributing
 
 ## Bug Reports
 
-:::caution Important **DO NOT report security vulnerabilities on public issues.** Please report the problem directly to the Sumé team by sending a message to [security@sumelms.com](mailto:security@sumelms.com). We will assess the issue as soon as possible based on the best efforts and provide an estimate of when we have a correction and release available for possible public disclosure. :::
+:::caution Important 
+**DO NOT report security vulnerabilities on public issues.** Please report the problem directly to the Sumé team by sending a message to [security@sumelms.com](mailto:security@sumelms.com). We will assess the issue as soon as possible based on the best efforts and provide an estimate of when we have a correction and release available for possible public disclosure.
+:::
 
 All repositories have templates indicating the type and what information is needed to open an issue.
 
