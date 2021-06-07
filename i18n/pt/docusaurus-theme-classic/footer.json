@@ -40,7 +40,7 @@
     "description": "The footer copyright"
   },
   "link.item.label.Contributing": {
-    "message": "Contribuíndo",
+    "message": "Contribuindo",
     "description": "The label of footer link with label=Contributing linking to docs/contributing"
   },
   "link.item.label.Become Partner": {

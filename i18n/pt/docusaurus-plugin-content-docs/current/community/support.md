@@ -1,21 +1,21 @@
 ---
 id: support
-title: Support
-sidebar_label: Support
+title: Suporte
+sidebar_label: Suporte
 slug: /support
 ---
 
-# Support
+# Suporte
 
-## Community Channels
+## Canais da Comunidade
 
-- Sumé Community on [Discord](https://discord.com/invite/aaJzjBunTZ), in case you need help or want to make suggestions.
-- Look for / ask questions at [Stack Overflow](https://stackoverflow.com/questions/tagged/sumelms).
-- Chat with the community on the [Reddit](https://new.reddit.com/r/sumelms/) forum.
+- Comunidade do Sumé no [Discord](https://discord.com/invite/aaJzjBunTZ), caso você precise de ajuda ou queira fazer sugestões.
+- Procure / faça perguntas no [Stack Overflow](https://stackoverflow.com/questions/tagged/sumelms).
+- Converse com a comunidade no [fórum do Reddit](https://new.reddit.com/r/sumelms/).
 
-## Keep in Touch
+## Mantenha Contato
 
-You can follow us in your social media:
+Você pode nos seguir nas redes sociais:
 
 - [Twitter](https://twitter.com/sumelms)
 - [Instagram](https://instagram.com/sumelms)

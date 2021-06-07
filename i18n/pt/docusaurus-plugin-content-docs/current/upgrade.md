@@ -1,7 +1,7 @@
 ---
 id: upgrade
-title: Upgrade Guide
-sidebar_label: Upgrade Guide
+title: Guia de atualização
+sidebar_label: Guia de atualização
 slug: /upgrade
 ---
 

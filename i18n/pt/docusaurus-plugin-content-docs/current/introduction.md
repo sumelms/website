@@ -1,26 +1,26 @@
 ---
 id: introduction
-title: Introduction
-sidebar_label: Introduction
+title: Introdução
+sidebar_label: Introdução
 slug: /
 ---
 
 # Sumé
 
-**Sumé** is an open and collaborative educational initiative, whose main objective is to remove the barriers between current teaching models and the need to adapt these teaching methodologies to the virtual environment. It is based on three main pillars:
+**Sumé** é uma iniciativa educacional aberta e colaborativa, cujo principal objectivo é eliminar as barreiras entre os actuais modelos de ensino e a necessidade de adaptar estas metodologias de ensino ao ambiente virtual. Baseia-se em três pilares principais:
 
-- That education must be open and accessible to all, allowing for a joint and constant evolution of society and individuals;
-- That education must be inclusive, that is, that through the use of technology it can overcome physical and social barriers to create bridges between people and ideas;
-- May education be adaptive. This means that she must look at both the difficulties and the learning facilities, always respecting the pace of each individual.
+- Essa educação deve ser aberta e acessível a todos, permitindo uma evolução conjunta e constante da sociedade e dos indivíduos;
+- Essa educação tem de ser inclusiva, ou seja, que através da utilização da tecnologia pode ultrapassar barreiras físicas e sociais para criar pontes entre pessoas e ideias;
+- Que a educação seja adaptável. Isto significa que ela tem de olhar tanto para as dificuldades como para os meios de aprendizagem, respeitando sempre o ritmo de cada indivíduo.
 
 ## Sumé LMS
 
-With the foundations of **Sumé** consolidated, the **Sumé LMS** was developed, a modern, open-source, free and distributed distance learning platform. It was built to adapt to the most diverse needs and teaching modalities, with a focus on being scalable and fast.
+Com as fundações da **Sumé** consolidadas, a **Sumé LMS** foi desenvolvida, uma plataforma de aprendizagem à distância moderna, de código aberto. Foi construída para se adaptar às necessidades e modalidades de ensino mais diversas, com foco em ser escalável e rápido.
 
-Using learning analytics tools, the platform provides better experiences for both educators and students in a dynamic and inclusive way, providing the educator with statistics to improve their content, as well as guiding the student to content formats that provide more effective learning.
+Usando ferramentas de análise de aprendizado, a plataforma fornece melhores experiências para educadores e estudantes de uma forma dinâmica e inclusiva. fornecer ao educador estatísticas para melhorar seu conteúdo, bem como guiar o aluno a formatos de conteúdo que forneçam aprendizagem mais eficaz.
 
-# Contribution
+# Contribuições
 
-We are very happy about your interest in helping Sumé. Our community is made up of people like you, who wish to make a positive impact on society.
+Estamos muito satisfeitos com o seu interesse em ajudar a Sumé. A nossa comunidade é composta por pessoas como vós, que querem ter um impacto positivo na sociedade.
 
-Feel welcome, we are grateful for any help you can give us, but first, read our [Contributing Guide](/docs/contributing) to learn about our how to ask questions and contribute and our [Code of Conduct](/docs/conduct) know our community standards and values.
+Sinta-se bem-vindo, estamos gratos por qualquer ajuda que possa nos dar, mas primeiro leia nosso [Guia de Contribuição](/docs/contributing) para aprender sobre nossa forma de fazer perguntas e contribuir e nosso [Código de Conduta](/docs/conduct) para conhecer nossas normas e valores da comunidade.

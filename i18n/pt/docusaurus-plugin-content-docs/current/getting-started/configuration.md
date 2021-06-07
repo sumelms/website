@@ -1,7 +1,7 @@
 ---
 id: configuration
-title: Configuration
-sidebar_label: Configuration
+title: Configuração
+sidebar_label: Configuração
 slug: /configuration
 ---
 

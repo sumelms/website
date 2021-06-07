@@ -1,58 +1,58 @@
 ---
 id: project
-title: Project Management
-sidebar_label: Project Management
+title: Gerenciamento do Projeto
+sidebar_label: Gerenciamento do Projeto
 slug: /project
 ---
 
-# Project Management
+# Gerenciamento do Projeto
 
-To keep things organized all our repositories can have their issues, but you can found our [project board with all the tickets here](https://github.com/orgs/sumelms/projects/1).
+Para manter tudo organizado, todos os nossos repositórios podem ter seus problemas, mas você pode encontrar nosso quadro de projeto [com todos os tickets aqui](https://github.com/orgs/sumelms/projects/1).
 
-## Ticket classification
+## Classificação de Ticket
 
-### Epics and User Stories
+### Epics e User Stories
 
-- **Epics** are issues that to be solved need to be split into small tasks called *user stories*.
-- **User Stories** are issues that to be solved need to be split into small and executable issues.
+- **Epics** são problemas para serem resolvidos precisam ser divididos em pequenas tarefas chamadas *User Stories*.
+- **User Stories** são problemas que devem ser resolvidos precisam ser divididos em pequenos e executáveis.
 
-This type of issues we call them "planning issues", 'cause they are the ones that can control and track the execution of the other issues.
+Este tipo de issues que chamamos de "questões de planeamento", porque são elas que podem controlar e acompanhar a execução das outras questões.
 
-These tasks should hold the necessary amount of the strategic view of its goal as well the links to other documents and related issues - nothing more, nothing less.
+Estas tarefas devem ter a necessária visão estratégica do seu objetivo, bem como as ligações com outros documentos e issues relacionadas - nada mais, nada menos que isso.
 
-To help you to identify an Epic and a User Story, remember:
+Para ajudá-lo a identificar uma Epic e User Story, lembre-se:
 
-- Cannot be assigned to anybody
-- **Normally** lives at the [main repository](https://github.com/sumelms/sumelms)
-- Do not generate any PR
-- Cannot be directly executed
+- Não pode ser atribuído a ninguém
+- **Normalmente** vive no [repositório principal](https://github.com/sumelms/sumelms)
+- Não gera qualquer PR
+- Não pode ser executada diretamente
 
 ### Issues
 
-Issues are executable tasks. If they are related to new features or enhancements, it is pretty common that they are part of a User Story, also these small and executable tasks can be bugs, in this case, it is pretty normal that they are **not** related to any User Story.
+Issues são tarefas executáveis. Se elas estão relacionados a novos recursos ou melhorias, é bem comum que façam parte de uma User Story, mas também essas pequenas e executáveis tarefas podem ser bugs, neste caso, é bem normal que eles **não estejam** relacionados a nenhuma história do usuário.
 
-To help you to identify an Issue, remember:
+Para ajudá-lo a identificar uma Issue, lembre-se:
 
-- Can be assigned to someone
-- Lives in the task-specific repository
-- Can be executed
-- **Normally** results in a PR
+- Pode ser atribuído a alguém
+- Está ativo no repositório específico para tarefas
+- Pode ser executada
+- **Normalmente** resulta em um PR
 
-## Merging a PR
+## Mesclando um PR
 
- A PR can only be merged with **main** by a maintainer if:
+ Um PR só pode ser mesclado com o **main** por um mantenedor se:
 
- - CI is passing.
- - It was approved by at least two maintainers. If it was a maintainer who opened the PR, only extra approval is required.
- - No changes requested.
- - It is updated with the current branch main code.
+ - CI está passando.
+ - Foi aprovado por pelo menos dois mantenedores. Se for um mantenedor que abriu a RP, apenas é necessária apenas uma aprovação extra.
+ - Nenhuma alteração solicitada.
+ - Ele está atualizado com o código principal da branch atual.
 
-## Semantic Versioning
+## Versionamento Semântico
 
-Sumé follows the [semantic versioning](https://semver.org/).
+O Sumé LMS segue [versionamento semântico](http://semver.org/).
 
-- patch - for critical bug fixes.
-- minor - for new features and non-essential changes.
-- major - for any breaking changes.
+- patch - para correções de erros críticos.
+- minor - para novos recursos e mudanças não essenciais.
+- major - para quaisquer alterações de ruptura.
 
-Every breaking change is documented in the *changelog* file
+Toda alteração de quebra é documentada no arquivo *changelog*

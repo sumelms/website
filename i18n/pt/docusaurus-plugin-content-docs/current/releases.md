@@ -1,7 +1,7 @@
 ---
 id: releases
-title: Release Notes
-sidebar_label: Release Notes
+title: Notas de Lançamento
+sidebar_label: Notas de Lançamento
 slug: /releases
 ---
 

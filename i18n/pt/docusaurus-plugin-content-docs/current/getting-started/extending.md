@@ -1,7 +1,7 @@
 ---
 id: extending
-title: Extending
-sidebar_label: Extending
+title: Estendendo
+sidebar_label: Estendendo
 slug: /extending
 ---
 

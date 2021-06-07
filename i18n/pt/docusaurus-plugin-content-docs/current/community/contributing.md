@@ -1,82 +1,82 @@
 ---
 id: contributing
-title: Contributing
-sidebar_label: Contributing
+title: Contribuindo
+sidebar_label: Contribuindo
 slug: /contributing
 ---
 
-# Contributing
+# Contribuindo
 
-## Bug Reports
+## Relatar Bug
 
-:::caution Important 
-**DO NOT report security vulnerabilities on public issues.** Please report the problem directly to the Sumé team by sending a message to [security@sumelms.com](mailto:security@sumelms.com). We will assess the issue as soon as possible based on the best efforts and provide an estimate of when we have a correction and release available for possible public disclosure.
+:::caution Important
+**NÃO relate vulnerabilidades de segurança em questões públicas.** Por favor, reporte o problema diretamente para a equipe Sumé enviando uma mensagem para [security@sumelms.com](mailto:security@sumelms.com). Avaliaremos a questão o mais rapidamente possível com base nos melhores esforços e forneceremos uma estimativa de quando tivermos uma correcção e libertação disponíveis para uma possível divulgação pública.
 :::
 
-All repositories have templates indicating the type and what information is needed to open an issue.
+Todos os repositórios possuem modelos indicando o tipo e as informações necessárias para abrir uma issue.
 
-If you think you've found a bug:
+Se você acha que encontrou um bug:
 
-- **Use the GitHub issue search**: check if the issue has already been reported.
-- **Check if the issue has been fixed**: try to reproduce it using the latest main branch in the repository.
-- **Isolate the problem**: ideally create a reduced test case.
+- **Use a pesquisa de problemas do GitHub** - verifique se o problema já foi reportado.
+- **Verifique se o problema foi corrigido** - tente reproduzi-lo usando o último ramo principal do repositório.
+- **Isole o problema**: idealmente crie um caso de teste reduzido.
 
-Please try to be as detailed as possible in your report.
+Reporte com o máximo possível de detalhes possíveis.
 
-## Feature Requests
+## Solicitar Funcionalidade
 
-Feature requests are welcome. We are open to new ideas and proposed changes to comply with the user needs.
+Pedidos de funcionalidades são bem vindos. Estamos abertos a novas ideias e a propostas de alteração para satisfazer as necessidades dos utilizadores.
 
-If you want to contribute, open an issue in the respective repository on [GitHub](https://github.com/sumelms), describe as much as possible what you would like to see in Sumé, why you think it would be necessary, and how it should work.
+Se você deseja contribuir, abra uma issue no respectivo repositório no [GitHub](https://github.com/sumelms), Descreva tanto quanto possível o que você gostaria de ver na Sumé, por que você acha que isso seria necessário e como deveria funcionar.
 
-## Support Questions
+## Questões de Suporte
 
-If you need technical help or want to discuss a technical or non-technical topic, you can open an issue for discussion or go directly to the community chat on [discord](https://discord.com/invite/aaJzjBunTZ).
+Se você precisa de ajuda técnica ou quer discutir um assunto técnico ou não técnico, você pode abrir uma issue para discussão ou ir diretamente para o chat da comunidade no [discord](https://discord.com/invite/aaJzjBunTZ).
 
-## How to contribute
+## Como Contribuir
 
-To contribute, make sure you:
+Para contribuir, certifique-se de que:
 
-- Read the [documentation](https://sumelms.com/docs/) on the website;
-- Read the **README** file of the repository, there you will find important information such as the requirements and instructions on how to run the project.
+- Leia a [documentação](https://sumelms.com/docs/) no site;
+- Leia o arquivo **README** do repositório, lá você encontrará informações importantes como os requisitos e instruções sobre como executar o projeto.
 
-You can contribute by:
+Você pode contribuir com:
 
-- Reviewing a [Pull Request](https://github.com/sumelms)
-- Fixing an [Issue](https://github.com/sumelms)
-- Updating / Translating the [documentation](https://github.com/sumelms/website/tree/main/docs)
-- Writing a tutorial / article to our [blog](https://medium.com/sumelms)
-- and more...
+- Revisando um [Pull Request](https://github.com/sumelms)
+- Corrigindo uma [Issue](https://github.com/sumelms)
+- Atualizando / Traduzindo a [documentação](https://github.com/sumelms/website/tree/main/docs)
+- Escrevendo um tutorial / artigo para nosso [blog](https://medium.com/sumelms)
+- e mais...
 
-## Create a Pull Request
+## Criando um Pull Request
 
-First time contributing? To feel more comfortable and get to know the project better, we suggest that you take a look at the issues labeled as **junior job :baby:**.
+Primeira vez contribuindo? Para se sentir mais confortável e conhecer melhor o projeto, sugerimos que você dê uma olhada nas issues rotuladas como **junior job :baby:**.
 
-All changes must be submitted directly to the ***main*** branch. We do our best to keep everything in order, with all tests passing.
+Todas as alterações devem ser enviadas diretamente para a branch ***main***. Fazemos o nosso melhor para manter tudo em ordem, com a passagem de todos os testes.
 
-All code sent to the ***main*** must be compatible with the latest stable version.
+Todo o código enviado para ***main*** deve ser compatível com a última versão estável.
 
-**Before submitting a pull request,** please:
+**Antes de enviar um pull request,** por favor:
 
-1. Fork the repository and create your branch from the main.
-2. Run the commands to install and build the dependencies.
-3. If you fixed a bug or added code that needs to be tested, add tests.
-4. Make sure that the whole test suite is passing successfully.
-5. Update your branch with the most recent changes from the upstream main branch. You can do this locally with:
+1. Faça um fork do repositório e crie seu branch a partir do branch main.
+2. Execute os comandos para instalar e construir as dependências.
+3. Se você corrigiu um bug ou adicionou um código que precisa ser testado, adicione os testes.
+4. Certifique-se de que toda a suíte de testes esteja passando com sucesso.
+5. Atualize seu fork com as alterações mais recentes do branch main. Você pode fazer isso localmente com:
 
   ```sh
   git pull --rebase upstream main
   ```
 
-6. Provide a detailed description of the changes to the PR. Live demo preferred.
-7. If necessary, you can organize your commit messages using GIT's interactive rebase. Please follow our commit message conventions shown below:
+6. Forneça uma descrição detalhada das alterações para o PR. Preferêncialmente com uma demonstração ao vivo.
+7. Se necessário, você pode organizar suas mensagens de commit usando a rebase interativa do GIT. Por favor, siga nossas convenções de mensagem de commit mostradas abaixo:
 
-  **Commit Message Conventions**
+  **Convenções de Mensagens Commit**
 
-  - Commit test files with `test: ...` or `test(scope): ...` prefix
-  - Commit bug fixes with `fix: ...` or `fix(scope): ...` prefix
-  - Commit new features with `feat: ...` or `feat(scope): ...` prefix
-  - Commit breaking changes by adding `BREAKING CHANGE:` in the commit body (not the subject line)
-  - Commit changes to `package.json`, `.gitignore` and other meta files with `chore(filenamewithoutext): ...`
-  - Commit changes to README files or comments with `docs: ...`
-  - Cody style changes with `style: standard`
+  - Commit arquivos de teste com prefixo: `test: ...` ou `test (scope): ...`
+  - Commit arquivos de correção com prefixo: `fix: ...` ou `fix (scope): ...`
+  - Commit arquivos de funcionalidades com prefixo: `feat: ...` ou `feat (scope): ...`
+  - Commit quebras de alterações adicionando `BREAKING CHANGE:` no corpo do commit (não na linha de assunto)
+  - Enviar alterações para `package.json`, `.gitignore` e outros arquivos meta com `chore (filenamewithoutext): ...`
+  - Fazer alterações nos arquivos README ou comentários com `docs: ...`
+  - Estilo de código alterado com `style: standard`

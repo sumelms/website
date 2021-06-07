@@ -1,37 +1,37 @@
 ---
 id: conduct
-title: Code of Conduct
-sidebar_label: Code of Conduct
+title: Código de Conduta
+sidebar_label: Código de Conduta
 slug: /conduct
 ---
 
-# Code of Conduct
+# Código de Conduta
 
-The Sumé community is dedicated to providing an inclusive and safe experience for everyone. The community is made up of a mixture of professionals from various fields, as well as volunteers from around the world, working in all aspects to make knowledge accessible and connect people passionate about the knowledge they want to share, learn and teach others.
+A comunidade Sumé se dedica a oferecer uma experiência inclusiva e segura para todos. A comunidade é composta por uma mistura de profissionais de vários campos, bem como voluntários de todo o mundo, trabalhando em todos os aspectos para tornar o conhecimento acessível e ligar pessoas apaixonadas pelo conhecimento que querem compartilhar, aprender e ensinar os outros.
 
-Diversity is one of our great strengths, but it can also lead to communication problems and unhappiness. To that end, we have some basic rules that we ask people to follow. This code applies equally to all who are part of the Sumé community, founders, educators, mentors, and those who seek help and guidance.
+A diversidade é uma das nossas grandes forças, mas também pode levar a problemas de comunicação e infelicidade. Para esse efeito, temos algumas regras básicas que pedimos às pessoas que sigam. Esse código aplica-se igualmente a todos os que fazem parte da comunidade Sumé, fundadores, educadores, mentores e aqueles que buscam ajuda e orientação.
 
-This isn’t an exhaustive list of things that you can’t do. Instead, take it in its intended spirit - a guide to facilitate the enrichment of all of us and the technical and non-technical communities in which we participate.
+Esta não é uma lista exaustiva de coisas que você não pode fazer. Em vez disso, leve-o no espírito pretendido - um guia para facilitar o enriquecimento de todos nós e das comunidades técnicas e não técnicas em que participamos.
 
-This code of conduct applies to all spaces managed by the Sumé project. This includes Discord, GitHub, Social Networks (Reddit, Facebook, Twitter, Instagram), the mailing lists, Sumé events, and any other forums created by the project team that the community uses for communication. In addition, violations of this code outside these spaces can affect a person's ability to participate in them.
+Esse código de conduta se aplica a todos os espaços gerenciados pelo projeto Sumé. Isso inclui o Discord, GitHub, Redes Sociais (Reddit, Facebook, Twitter, Instagram), as listas de discussão, Eventos sumários e quaisquer outros fóruns criados pela equipe do projeto que a comunidade utiliza para a comunicação. Além disso, as violações desse código fora desses espaços podem afetar a capacidade de uma pessoa de participar delas.
 
-If you believe that someone is violating the code of conduct, we ask that you report it by email *[conduct@sumelms.com](mailto:conduct@sumelms.com).* All reports will be kept confidential. In some cases, we can determine that a public statement will need to be made. If so, the identities of all victims and reporters will remain confidential, unless those individuals instruct us otherwise.
+Se você acredita que alguém está violando o código de conduta, nós pedimos que você o reporte por e-mail *[conduct@sumelms. om](mailto:conduct@sumelms.com).* Todos os relatórios serão mantidos confidenciais. Em alguns casos, podemos determinar a necessidade de uma declaração pública. Se assim for, as identidades de todas as vítimas e repórteres permanecerão confidenciais, a menos que essas pessoas nos instruam de outra forma.
 
-We have the right and responsibility to remove comments or other contributions that are not in accordance with this Code of Conduct or to temporarily or permanently ban any member for other behavior that they deem inappropriate, threatening, offensive, or harmful.
+Os mantenedores do projeto tem o direito e a responsabilidade de remover, editar, ou rejeitar comentários, commits, código, edições na wiki, issues, e outras contribuições que não estão alinhadas a este Código de Conduta, ou banir temporariamente ou permanentemente qualquer contribuidor por outros comportamentos que considerem inapropriados, ameaçadores, ofensivos ou prejudiciais.
 
-- **Be friendly and patient.**
-- **Be welcoming and use inclusive language.** We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
-- **Be considerate.** Your work will be used by other people, just as you will depend on other people's work. Whatever decision you make will affect users and colleagues, and you should take those consequences into account when making decisions.
-- **Be respectful.** Not all of us will agree all the time, but disagreement is no excuse for bad behavior and poor manners. We may all experience some frustration from time to time, but we cannot allow that frustration to become a personal attack. It’s important to remember that a community where people feel uncomfortable or threatened is not a productive one.
-- **Be careful in the words that you choose.** We are a community that values ethics and we conduct ourselves ethically. Be kind to others. Do not insult or put down other participants. Harassment and other exclusionary behavior aren't acceptable. This includes, but is not limited to:
-    - Derogatory public/private comments with threats or offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, or religion.
-    - Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.
-    - Personal insults, especially those using racist or sexist terms.
-    - Discriminatory jokes and language.
-    - Posting (or threatening to post) others' private information, such as a physical or electronic address, without explicit permission.
-    - Posting sexually explicit or violent material.
-    - Unwanted sexual advances and attention.
-    - Advocating for, or encouraging, any of the above behavior.
-- **Be constructive.** Disagreements, both social and technical, happen all the time. When we disagree, try to understand why. It is important that we resolve disagreements constructively. Remember that we’re different and different people have different perspectives on issues. Being unable to understand why someone holds a viewpoint doesn’t mean that they’re wrong. Don’t forget that it is human to err and blaming each other doesn’t get us anywhere. Instead, focus on helping to resolve issues and learning from mistakes.
+- **Seja amigável e paciente.**
+- **Seja bem-vindo e use a linguagem inclusiva.** Nós nos esforçamos para ser uma comunidade que receba e apoie pessoas de todos os antecedentes e identidades. Isto inclui, mas não se limita a membros de qualquer raça, etnia, cultura, origem nacional, cor, estatuto de imigração, classe social e económica, nível educacional, sexo, orientação sexual, identidade e expressão de género, idade, tamanho, estatuto familiar, crença política, religião e capacidade física e mental.
+- **Seja ponderado.** Seu trabalho será usado por outras pessoas, assim como você dependerá do trabalho de outras pessoas. Qualquer que seja a decisão que você tomar afetará os usuários e colegas, e você deve ter essas consequências em conta ao tomar decisões.
+- **Seja respeitoso.** Nem todos nós estaremos de acordo o tempo todo, mas o desacordo não é desculpa para mau comportamento e más maneiras. Todos nós podemos sentir alguma frustração de tempos a tempos, mas não podemos permitir que essa frustração se transforme num ataque pessoal. É importante lembrar que uma comunidade onde as pessoas se sentem desconfortáveis ou ameaçadas não é uma comunidade produtiva.
+- **Tenha cuidado com as palavras que você escolher.** Nós somos uma comunidade que valoriza a ética e nós nos comportamos de forma ética. Seja gentil com os outros. Não insulte ou deprecie outros participantes. Assédio e outros comportamentos exclusivos não são aceitáveis. Isto inclui, mas não se limita a:
+    - Comentários públicos ou privados com ameaças ou comentários ofensivos relacionados a gênero, identidade de gênero e expressão, orientação sexual, deficiência, doença mental, neuro(a)tipicalidade, aparência física, tamanho do corpo, raça ou religião.
+    - Comentários indesejáveis sobre as escolhas e práticas do estilo de vida de uma pessoa, incluindo as relacionadas com a alimentação, a saúde, os pais, as drogas e o emprego.
+    - Insultos pessoais, especialmente aqueles que utilizam termos racistas ou sexistas.
+    - Piadas e línguas discriminatórias.
+    - Postar (ou ameaçar com o post) informações privadas de terceiros, tais como um endereço físico ou electrónico, sem autorização explícita.
+    - Postagem de material sexualmente explícito ou violento.
+    - Avanços e atenção sexuais indesejados.
+    - Advogando ou encorajando qualquer comportamento acima.
+- **Seja construtivo.** Disacordos, tanto sociais quanto técnicos, acontecem o tempo todo. Quando discordamos, tentem compreender o porquê. É importante que resolvamos os desacordos de forma construtiva. Lembre-se de que somos pessoas diferentes e diferentes tem diferentes perspectivas em questões de perspectiva. Ser incapaz de entender por que alguém tem um ponto de vista não significa que ele está errado. Não se esqueça de que é humano errar e culpar uns aos outros não nos leva a lugar nenhum. Ao invés disso, concentre-se em ajudar a resolver problemas e aprender com erros.
 
-Based on the text of the [Django Project](https://www.djangoproject.com/conduct/)
+Baseado no texto do [projeto Django](https://www.djangoproject.com/conduct/)

@@ -1,7 +1,7 @@
 ---
 id: installation
-title: Installation
-sidebar_label: Installation
+title: Instalação
+sidebar_label: Instalação
 slug: /installation
 ---
 
