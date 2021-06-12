@@ -299,6 +299,57 @@ function Home() {
 
       <Section
         title={translate({
+          id: "sume.edu.section.title",
+          description: "Edu sumé documentation title",
+          message: "Sumé edu",
+        })}
+        subtitle={translate({
+          id: "sume.edu.section.subtitle",
+          description: "Homepage Installs section subtitle",
+          message: "A tool to support the education",
+        })}
+        centered
+      >
+        <div className={styles.sectionSumeEdu}>
+          <ImageCard
+            image={<img src="img/sume_edu.svg" alt="Sume Edu" />}
+            reverse
+          >
+          
+          <p>
+            <Translate
+              id="sume.edu.section.text.2"
+              description="Sume Edu section text"
+            >
+              To ensure educators and students a broad and detailed understanding of what Sumé and the Sumé LMS are and how they can assist in the development and implementation of virtual classes, we created Sumé Edu (Educator's Manual). Its objective is to help and help educators to remodel and adapt what is taught in the physical classroom to the virtual classroom, trying, in all aspects, not to lose the quality necessary for the construction of knowledge.
+            </Translate>
+          </p>
+          <p>
+            <Translate
+              id="sume.edu.section.text.3"
+              description="Sume Edu section text"
+            >
+              Like the entire Sumé platform, the manual is also a product of collective construction and is open to everyone's collaboration. To follow the content development and understand how to help in this process, access the manual and check it out!
+            </Translate>
+          </p>
+          
+          </ImageCard>
+        </div>
+
+        <Button
+          text={translate({
+            id: "sume.edu.section.button",
+            description: "Sume Edu section button",
+            message: "Visit project",
+          })}
+          href="https://edu.sumelms.com"
+          target="_blank"
+        />
+
+      </Section>
+      
+      <Section
+        title={translate({
           id: "homepage.section.install.title",
           description: "Homepage Installs section title",
           message: "Install everywhere",
@@ -308,6 +359,7 @@ function Home() {
           description: "Homepage Installs section subtitle",
           message: "Some of our guides to help you to install.",
         })}
+        centered
       >
         <div className={styles.sectionInstall}>
           <ul>
