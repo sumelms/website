@@ -45,6 +45,6 @@
   },
   "link.item.label.Become Partner": {
     "message": "Seja um Parceiro",
-    "description": "The label of footer link with label=Become Partners linking to docs/partners"
+    "description": "The label of footer link with label=Become Partner linking to docs/partners"
   }
 }

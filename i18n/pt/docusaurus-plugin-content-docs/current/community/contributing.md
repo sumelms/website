@@ -9,9 +9,7 @@ slug: /contributing
 
 ## Relatar Bug
 
-:::caution Important
-**NÃO relate vulnerabilidades de segurança em questões públicas.** Por favor, reporte o problema diretamente para a equipe Sumé enviando uma mensagem para [security@sumelms.com](mailto:security@sumelms.com). Avaliaremos a questão o mais rapidamente possível com base nos melhores esforços e forneceremos uma estimativa de quando tivermos uma correcção e libertação disponíveis para uma possível divulgação pública.
-:::
+:::caution Important **NÃO relate vulnerabilidades de segurança em questões públicas.** Por favor, reporte o problema diretamente para a equipe Sumé enviando uma mensagem para [security@sumelms.com](mailto:security@sumelms.com). Avaliaremos a questão o mais rapidamente possível com base nos melhores esforços e forneceremos uma estimativa de quando tivermos uma correcção e libertação disponíveis para uma possível divulgação pública. :::
 
 Todos os repositórios possuem modelos indicando o tipo e as informações necessárias para abrir uma issue.
 

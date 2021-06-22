@@ -322,5 +322,25 @@
   "theme.common.skipToMainContent": {
     "message": "Pular para o conteúdo principal",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "sume.edu.section.title": {
+    "message": "Sumé Edu",
+    "description": "Edu sumé documentation title"
+  },
+  "sume.edu.section.subtitle": {
+    "message": "Uma ferramenta para apoiar a educação",
+    "description": "Homepage Installs section subtitle"
+  },
+  "sume.edu.section.text.2": {
+    "message": "Para garantir aos educadores e alunos uma compreensão ampla e detalhada sobre o que é a Sumé e o Sumé LMS e como eles podem auxiliar no desenvolvimento e na implementação das aulas virtuais, criamos o Sumé Edu (Manual do Educador). Seu objetivo é ajudar e auxiliar os educadores a remodelar e a adaptar o que é ensinado em sala de aula física para a sala de aula virtual, tentando, em todos os aspectos, não perder a qualidade necessária à construção do conhecimento.",
+    "description": "Sume Edu section text"
+  },
+  "sume.edu.section.text.3": {
+    "message": "Assim como toda a plataforma Sumé, o manual também é um produto de construção coletiva e está aberto à colaboração de todos. Para acompanhar o desenvolvimento do conteúdo e entender como ajudar neste processo, acesse o manual e confira!",
+    "description": "Sume Edu section text"
+  },
+  "sume.edu.section.button": {
+    "message": "Visitar projeto",
+    "description": "Sume Edu section button"
   }
 }
