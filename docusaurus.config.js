@@ -109,9 +109,13 @@ module.exports = {
           ],
         },
       ],
-
       copyright: `Copyright © ${new Date().getFullYear()} Sumé LMS. Built with Docusaurus.`,
     },
+    gtag: {
+      trackingID: 'G-6YETQHVNX1',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    }
   },
   presets: [
     [
@@ -134,6 +138,7 @@ module.exports = {
       },
     ],
   ],
+  plugins: ['@docusaurus/plugin-google-gtag'],
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'pt'],
