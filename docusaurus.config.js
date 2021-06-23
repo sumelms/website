@@ -138,7 +138,6 @@ module.exports = {
       },
     ],
   ],
-  plugins: ['@docusaurus/plugin-google-gtag'],
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'pt'],
