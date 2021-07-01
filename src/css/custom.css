@@ -42,3 +42,10 @@ a {
 .main-wrapper {
   overflow-x: hidden;
 }
+
+.avatar__role {
+  margin: 5px 0;
+  font-weight: normal;
+  color: #423f3f;
+  font-size: small;
+}
