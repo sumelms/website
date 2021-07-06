@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Sumé LMS",
-  tagline: "Evolving Education.",
+  tagline: "A fast, modern, data-driven online education platform designed to maximize the learning and exchange of knowledge between people.",
   organizationName: "sumelms", // Usually your GitHub org/user name.
   projectName: "website", // Usually your repo name.
   url: "https://sumelms.com",
@@ -12,7 +12,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   customFields: {
     description:
-      "Sumé is a modern, fast, and open-source learning management system.",
+      "A fast, modern, data-driven online education platform designed to maximize the learning and exchange of knowledge between people.",
   },
   themeConfig: {
     hideableSidebar: true,

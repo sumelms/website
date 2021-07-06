@@ -7,7 +7,7 @@ import Translate, { translate } from "@docusaurus/Translate";
 import {
   FiBookOpen,
   FiUser,
-  FiLink,
+  FiPieChart,
   FiZap,
   FiGlobe,
   FiCheck,
@@ -105,14 +105,14 @@ const reasons = [
     title: translate({
       id: "reasons.item-list.5.title",
       description: "Reason list item title",
-      message: "Community",
+      message: "Data-oriented",
     }),
     content: translate({
       id: "reasons.item-list.5.content",
       description: "Reason list item content",
-      message: "Environment developed based on guidelines and needs of the educational community.",
+      message: "It provides evidence on the performance of the content and applied teaching method, allowing to identify and correct possible deviations in the learning process.",
     }),
-    icon: <FiLink size={24} />,
+    icon: <FiPieChart size={24} />,
   },
   {
     title: translate({
@@ -232,12 +232,12 @@ const installs = [
 
 function Home() {
   const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+  const {siteConfig: {customFields = {}, tagline} = {}} = context;
 
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description={`${siteConfig.customFields.description}`}
+      title={tagline}
+      description={customFields.description}
     >
       <Section>
         <HomeBanner

@@ -48,11 +48,11 @@
     "description": "Reason list item content"
   },
   "reasons.item-list.5.title": {
-    "message": "Comunidade",
+    "message": "Orientado a dados",
     "description": "Reason list item title"
   },
   "reasons.item-list.5.content": {
-    "message": "Ambiente desenvolvido com base em diretrizes e necessidades da comunidade educacional.",
+    "message": "Proporciona evidências sobre o desempenho do conteúdo e o método de ensino aplicado, permitindo identificar e corrigir possíveis desvios no processo de aprendizagem.",
     "description": "Reason list item content"
   },
   "reasons.item-list.6.title": {
@@ -134,6 +134,26 @@
   "homepage.section.reasons.title": {
     "message": "Por que Sumé LMS?",
     "description": "Homepage Reasons section title"
+  },
+  "sume.edu.section.title": {
+    "message": "Sumé Edu",
+    "description": "Edu sumé documentation title"
+  },
+  "sume.edu.section.subtitle": {
+    "message": "Uma ferramenta para apoiar a educação",
+    "description": "Homepage Installs section subtitle"
+  },
+  "sume.edu.section.text.2": {
+    "message": "Para garantir aos educadores e alunos uma compreensão ampla e detalhada sobre o que é a Sumé e o Sumé LMS e como eles podem auxiliar no desenvolvimento e na implementação das aulas virtuais, criamos o Sumé Edu (Manual do Educador). Seu objetivo é ajudar e auxiliar os educadores a remodelar e a adaptar o que é ensinado em sala de aula física para a sala de aula virtual, tentando, em todos os aspectos, não perder a qualidade necessária à construção do conhecimento.",
+    "description": "Sume Edu section text"
+  },
+  "sume.edu.section.text.3": {
+    "message": "Assim como toda a plataforma Sumé, o manual também é um produto de construção coletiva e está aberto à colaboração de todos. Para acompanhar o desenvolvimento do conteúdo e entender como ajudar neste processo, acesse o manual e confira!",
+    "description": "Sume Edu section text"
+  },
+  "sume.edu.section.button": {
+    "message": "Visitar projeto",
+    "description": "Sume Edu section button"
   },
   "homepage.section.install.title": {
     "message": "Instale em todo lugar",
@@ -219,6 +239,10 @@
     "message": "Postagem mais antiga",
     "description": "The blog post button label to navigate to the older/next post"
   },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navegação dos posts mais recentes",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
@@ -283,6 +307,10 @@
     "message": "Abrir menu",
     "description": "The ARIA label for open button of mobile doc sidebar"
   },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Sidebar navigation",
+    "description": "The ARIA label for documentation menu"
+  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Esta é uma documentação não lançada para {siteTitle} {versionLabel}.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -322,25 +350,5 @@
   "theme.common.skipToMainContent": {
     "message": "Pular para o conteúdo principal",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
-  },
-  "sume.edu.section.title": {
-    "message": "Sumé Edu",
-    "description": "Edu sumé documentation title"
-  },
-  "sume.edu.section.subtitle": {
-    "message": "Uma ferramenta para apoiar a educação",
-    "description": "Homepage Installs section subtitle"
-  },
-  "sume.edu.section.text.2": {
-    "message": "Para garantir aos educadores e alunos uma compreensão ampla e detalhada sobre o que é a Sumé e o Sumé LMS e como eles podem auxiliar no desenvolvimento e na implementação das aulas virtuais, criamos o Sumé Edu (Manual do Educador). Seu objetivo é ajudar e auxiliar os educadores a remodelar e a adaptar o que é ensinado em sala de aula física para a sala de aula virtual, tentando, em todos os aspectos, não perder a qualidade necessária à construção do conhecimento.",
-    "description": "Sume Edu section text"
-  },
-  "sume.edu.section.text.3": {
-    "message": "Assim como toda a plataforma Sumé, o manual também é um produto de construção coletiva e está aberto à colaboração de todos. Para acompanhar o desenvolvimento do conteúdo e entender como ajudar neste processo, acesse o manual e confira!",
-    "description": "Sume Edu section text"
-  },
-  "sume.edu.section.button": {
-    "message": "Visitar projeto",
-    "description": "Sume Edu section button"
   }
 }
