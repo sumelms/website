@@ -1,6 +1,7 @@
 import React from 'react';
 import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 function WebsiteLink({to, children}) {
   return (
@@ -57,10 +58,11 @@ export function CoreTeamRow() {
     <div className="row">
       <TeamProfileCardCol
         name="Ricardo Lüders"
-        role="Project Leader &amp; Lead Engineer"
+        role="Project Leader &amp; Engineer Leader"
         avatar="https://github.com/rluders.png"
         links={[
           {title: "Github", url: "https://github.com/rluders"},
+          {title: "LinkedIn", url: "https://www.linkedin.com/in/ricardoluders"},
           {title: "Twitter", url: "https://twitter.com/rluders_"},
         ]}>
         <Translate id="team.profile.Ricardo Lüders.body">
@@ -70,55 +72,42 @@ export function CoreTeamRow() {
       </TeamProfileCardCol>
       <TeamProfileCardCol
         name="Ariane Rocha"
-        role="Leader Data Analyst"
+        role="Data Engineer Leader"
         avatar="https://github.com/arianerocha.png"        
         links={[
           {title: "Github", url: "https://github.com/arianerocha"},
+          {title: "LinkedIn", url: "https://www.linkedin.com/in/arianerocha"},
         ]}>
         <Translate id="team.profile.Ariane Rocha.body">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, leo eu 
-        blandit eleifend, sapien neque auctor odio, nec luctus lectus dui id erat. Sed varius 
-        euismod mauris a scelerisque. Pellentesque lacinia urna vitae porta venenatis.
+        -
         </Translate>
-      </TeamProfileCardCol>
-      <TeamProfileCardCol
-        name="Camila Moura"
-        role="Pedagogical &amp; Technical Support"
-        avatar="https://github.com/mouracamila.png"
-        links={[
-          {title: "Github", url: "https://github.com/mouracamila"},
-        ]}>
-        <Translate
-          id="team.profile.Camila Moura.body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, leo eu 
-            blandit eleifend, sapien neque auctor odio, nec luctus lectus dui id erat. Sed varius 
-            euismod mauris a scelerisque. Pellentesque lacinia urna vitae porta venenatis.
-        </Translate>
-      </TeamProfileCardCol>
+      </TeamProfileCardCol>      
       <TeamProfileCardCol
         name="Izadora Ribeiro Perkoski"
-        role="Pedagogical &amp; Data Analyst"
-        avatar="#missing"
+        role="Digital Learning Coordinator"
+        avatar={useBaseUrl("img/team/izadoraperkoski.jpg")}
         links={[
           {title: "Linkedin", url: "https://www.linkedin.com/in/izadoraperkoski/"},
         ]}>
         <Translate id="team.profile.Izadora Ribeiro Perkoski.body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, leo eu 
-          blandit eleifend, sapien neque auctor odio, nec luctus lectus dui id erat. Sed varius 
-          euismod mauris a scelerisque. Pellentesque lacinia urna vitae porta venenatis.
+        PhD in Special Education (UFSCar), Master in Behavior Analysis (UEL) and 
+        Bachelor of Psychology (FEPAR) works with development of educational 
+        technologies and interventions based on games and gamification.
         </Translate>
       </TeamProfileCardCol>
       <TeamProfileCardCol
         name="Mariany Ferreira da Silva"
-        role="Front-end &amp; Data Analyst"
+        role="Front-end &amp; Data Engineer"
         avatar="https://github.com/marianyfs.png"
         links={[
           {title: "Github", url: "https://github.com/marianyfs"},
+          {title: "LinkedIn", url: "https://www.linkedin.com/in/mariany-ferreira-da-silva-34b7b52b"},
+          {title: "Twitter", url: "https://twitter.com/mariany_fs"}
         ]}>
         <Translate id="team.profile.Mariany Ferreira da Silva.body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, leo eu 
-          blandit eleifend, sapien neque auctor odio, nec luctus lectus dui id erat. Sed varius 
-          euismod mauris a scelerisque. Pellentesque lacinia urna vitae porta venenatis.
+          Software Development Engineer, Hitchhiker from Magrathea Labs. I am 
+          sometimes a mentor and always an apprentice. An occasional console gamer, 
+          traveler and nature lover, family album photographer and a tech geek.
         </Translate>
       </TeamProfileCardCol>
     </div>
@@ -133,13 +122,27 @@ export function ActiveTeamRow() {
         avatar="https://github.com/basask.png"
         links={[
           {title: "Github", url: "https://github.com/basask"},
+          {title: "LinkedIn", url: "https://www.linkedin.com/in/basask"},
         ]}>
         <Translate id="team.profile.Rafael Basask.body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, leo eu 
-          blandit eleifend, sapien neque auctor odio, nec luctus lectus dui id erat. Sed varius 
-          euismod mauris a scelerisque. Pellentesque lacinia urna vitae porta venenatis.
+        Full "Slack" Developer (code only the minimum necessary). I'm sometimes a tutor and a 
+        teacher and always an apprentice. An occasional gamer, musician, traveler, photographer 
+        and a frequent programmer.
         </Translate>
       </TeamProfileCardCol>
-    </div>
+      <TeamProfileCardCol
+        name="Camila Moura"
+        role="Front-end &amp; Pedagogical Support"
+        avatar="https://github.com/mouracamila.png"
+        links={[
+          {title: "Github", url: "https://github.com/mouracamila"},
+          {title: "LinkedIn", url: "https://www.linkedin.com/in/camilacassianodemoura/"},
+        ]}>
+        <Translate
+          id="team.profile.Camila Moura.body">
+            -
+        </Translate>
+      </TeamProfileCardCol>
+    </div>    
   );
 }
