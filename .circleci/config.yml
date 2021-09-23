@@ -13,7 +13,6 @@ jobs:
       GIT_USER: $GH_NAME
     steps:
       - checkout
-      - prepare
       - run:
           name: Deploying to GitHub Pages
           command: |
