@@ -17,7 +17,7 @@ jobs:
             git config --global user.email "${GH_EMAIL}"
             git config --global user.name "${GH_NAME}"
             echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-            yarn install && GIT_USER="${GH_NAME}" yarn deploy
+            yarn install && export GIT_USER="${GH_NAME}" && yarn deploy
 
 workflows:
   version: 2
