@@ -132,7 +132,7 @@ export function ActiveTeamRow() {
       </TeamProfileCardCol>
       <TeamProfileCardCol
         name="Camila Moura"
-        role="Front-end &amp; Pedagogical Support"
+        role="Front-end &amp; Administrative Support"
         avatar="https://github.com/mouracamila.png"
         links={[
           {title: "Github", url: "https://github.com/mouracamila"},
@@ -140,6 +140,18 @@ export function ActiveTeamRow() {
         ]}>
         <Translate
           id="team.profile.Camila Moura.body">
+            -
+        </Translate>
+      </TeamProfileCardCol>
+      <TeamProfileCardCol
+        name="Gisele Votre"
+        role="User Interface Designer "
+        avatar={useBaseUrl("img/team/giselevotre.jpeg")}
+        links={[
+          {title: "LinkedIn", url: "https://www.linkedin.com/in/gisele-votre-235323115/"},
+        ]}>
+        <Translate
+          id="team.profile.Gisele Votre.body">
             -
         </Translate>
       </TeamProfileCardCol>
