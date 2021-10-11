@@ -79,7 +79,8 @@ export function CoreTeamRow() {
           {title: "LinkedIn", url: "https://www.linkedin.com/in/arianerocha"},
         ]}>
         <Translate id="team.profile.Ariane Rocha.body">
-        -
+        Data Engineer at Magrathea Labs, Leader of Data Sumé, and one of the founders of the project Sumé.
+        Passionate about technology, open-source, games 🎮, books 📚, comics 💬, podcasts, and cats 😻, much more for cats actually.
         </Translate>
       </TeamProfileCardCol>      
       <TeamProfileCardCol
