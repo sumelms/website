@@ -321,7 +321,7 @@
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
     "message": "Para a documentação atualizada, veja: {latestVersionLink} ({versionLabel}).",
-    "description": "The label userd to tell the user that he's browsing an unmaintained doc version"
+    "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "última versão",
@@ -350,5 +350,57 @@
   "theme.common.skipToMainContent": {
     "message": "Pular para o conteúdo principal",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "team.profile.websiteLinkLabel": {
+    "message": "website"
+  },
+  "team.profile.Ricardo Lüders.body": {
+    "message": "Engenheiro de Software Holístico (o universo vai consertar o bug 🔮), Líder do Projeto e Fundador do Sumé LMS, que ama tecnologia, código aberto, educação, gatos 🐱, video game 🎮, e música 🎼."
+  },
+  "team.profile.Ariane Rocha.body": {
+    "message": "Engenheira de Dados no Magrathea Labs, Líder da Data Sumé, e uma das fundadores do projeto Sumé. Apaixonado por tecnologia, código aberto, jogos 🎮, livros 📚, quadrinhos 💬, podcasts e gatos 😻, muito mais para gatos na verdade."
+  },
+  "team.profile.Izadora Ribeiro Perkoski.body": {
+    "message": "PhD em Educação Especial (UFSCar), mestre em Análise de Comportamento (UEL) e o Bacharel da Psicologia (FEPAR), trabalha com o desenvolvimento de tecnologias educativas e intervenções baseadas em jogos e gamificação."
+  },
+  "team.profile.Mariany Ferreira da Silva.body": {
+    "message": "Engenheiro de Desenvolvimento de Software, Hitchhiker da Magrathea Labs. Às vezes eu sou mentora e sempre aprendiz. Uma jogadora ocasional de console, viajante e amante da natureza, fotógrafa de álbuns familiares e uma geek de tecnologia."
+  },
+  "team.profile.Rafael Basask.body": {
+    "message": "Desenvolvedor Full \"Slack\" (codificando apenas o mínimo necessário). Às vezes sou tutor e professor e sempre aprendiz. Um gamer, músico, viajante, fotógrafo e programador frequente."
+  },
+  "team.profile.Camila Moura.body": {
+    "message": "-"
+  },
+  "team.profile.Gisele Votre.body": {
+    "message": "-"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
   }
 }
